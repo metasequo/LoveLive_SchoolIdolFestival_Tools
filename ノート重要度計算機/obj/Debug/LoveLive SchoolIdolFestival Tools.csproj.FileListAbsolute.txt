@@ -25,3 +25,12 @@ C:\Users\owner\Dropbox\プログラミング\Visual Studio 2013\Projects\ノー�
 C:\Users\owner\Dropbox\プログラミング\Visual Studio 2013\Projects\ノート重要度計算機\ノート重要度計算機\obj\Debug\ノート重要度計算機.Form1.resources
 C:\Users\owner\Dropbox\プログラミング\Visual Studio 2013\Projects\ノート重要度計算機\ノート重要度計算機\obj\Debug\ノート重要度計算機.Properties.Resources.resources
 C:\Users\owner\Dropbox\プログラミング\Visual Studio 2013\Projects\ノート重要度計算機\ノート重要度計算機\obj\Debug\LoveLive SchoolIdolFestival Tools.csproj.GenerateResource.Cache
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\bin\Debug\ノート重要度計算機.exe.config
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\ノート重要度計算機.exe
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\ノート重要度計算機.pdb
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\bin\Debug\ノート重要度計算機.exe
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\bin\Debug\ノート重要度計算機.pdb
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\LoveLive SchoolIdolFestival Tools.csprojResolveAssemblyReference.cache
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\ノート重要度計算機.Form1.resources
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\ノート重要度計算機.Properties.Resources.resources
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\LoveLive SchoolIdolFestival Tools.csproj.GenerateResource.Cache

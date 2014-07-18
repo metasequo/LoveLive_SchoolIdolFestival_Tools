@@ -133,6 +133,7 @@
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button29 = new System.Windows.Forms.Button();
             this.label81 = new System.Windows.Forms.Label();
             this.button28 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
@@ -188,7 +189,6 @@
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown40)).BeginInit();
@@ -1300,6 +1300,16 @@
             this.tabPage3.Text = "InputFileCreator";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // button29
+            // 
+            this.button29.Location = new System.Drawing.Point(183, 357);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(137, 49);
+            this.button29.TabIndex = 142;
+            this.button29.Text = "リセット";
+            this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
+            // 
             // label81
             // 
             this.label81.AutoSize = true;
@@ -1768,16 +1778,6 @@
             this.button18.TabIndex = 83;
             this.button18.Text = "6";
             this.button18.UseVisualStyleBackColor = true;
-            // 
-            // button29
-            // 
-            this.button29.Location = new System.Drawing.Point(183, 357);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(137, 49);
-            this.button29.TabIndex = 142;
-            this.button29.Text = "リセット";
-            this.button29.UseVisualStyleBackColor = true;
-            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // Form1
             // 
