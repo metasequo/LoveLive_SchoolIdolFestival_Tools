@@ -107,7 +107,7 @@ namespace ノート重要度計算機
             {
                 tan = (Double)NumericUpDowntab1(i + 23).Value;
                 naga = (Double)NumericUpDowntab1(i + 32).Value;
-                important[i] = tan * 1.1 + naga;
+                important[i] = tan + naga * 1.25;
                 Labeltab1(i + 14).Text = important[i].ToString();
             }
             for (i = 0; i < 9; i++)
@@ -316,58 +316,58 @@ namespace ノート重要度計算機
             if(Record){
                 switch (e.KeyData){
                     case Keys.D1:
-                        numericUpDown4.Value += 1;
+                        if (numericUpDown4.Value < 100) numericUpDown4.Value += 1;
                         break;
                     case Keys.Q:
-                        numericUpDown5.Value += 1;
+                        if (numericUpDown5.Value < 100) numericUpDown5.Value += 1;
                         break;
                     case Keys.D2:
-                        numericUpDown6.Value += 1;
+                        if (numericUpDown6.Value < 100) numericUpDown6.Value += 1;
                         break;
                     case Keys.W:
-                        numericUpDown7.Value += 1;
+                        if (numericUpDown7.Value < 100) numericUpDown7.Value += 1;
                         break;
                     case Keys.D3:
-                        numericUpDown8.Value += 1;
+                        if (numericUpDown8.Value < 100) numericUpDown8.Value += 1;
                         break;
                     case Keys.E:
-                        numericUpDown9.Value += 1;
+                        if (numericUpDown9.Value < 100) numericUpDown9.Value += 1;
                         break;
                     case Keys.D4:
-                        numericUpDown10.Value += 1;
+                        if (numericUpDown10.Value < 100) numericUpDown10.Value += 1;
                         break;
                     case Keys.R:
-                        numericUpDown11.Value += 1;
+                        if (numericUpDown11.Value < 100) numericUpDown11.Value += 1;
                         break;
                     case Keys.D5:
-                        numericUpDown12.Value += 1;
+                        if (numericUpDown12.Value < 100) numericUpDown12.Value += 1;
                         break;
                     case Keys.T:
-                        numericUpDown13.Value += 1;
+                        if (numericUpDown13.Value < 100) numericUpDown13.Value += 1;
                         break;
                     case Keys.D6:
-                        numericUpDown14.Value += 1;
+                        if (numericUpDown14.Value < 100) numericUpDown14.Value += 1;
                         break;
                     case Keys.Y:
-                        numericUpDown15.Value += 1;
+                        if (numericUpDown15.Value < 100) numericUpDown15.Value += 1;
                         break;
                     case Keys.D7:
-                        numericUpDown16.Value += 1;
+                        if (numericUpDown16.Value < 100) numericUpDown16.Value += 1;
                         break;
                     case Keys.U:
-                        numericUpDown17.Value += 1;
+                        if (numericUpDown17.Value < 100) numericUpDown17.Value += 1;
                         break;
                     case Keys.D8:
-                        numericUpDown18.Value += 1;
+                        if (numericUpDown18.Value < 100) numericUpDown18.Value += 1;
                         break;
                     case Keys.I:
-                        numericUpDown19.Value += 1;
+                        if (numericUpDown19.Value < 100) numericUpDown19.Value += 1;
                         break;
                     case Keys.D9:
-                        numericUpDown20.Value += 1;
+                        if (numericUpDown20.Value < 100) numericUpDown20.Value += 1;
                         break;
                     case Keys.O:
-                        numericUpDown21.Value += 1;
+                        if (numericUpDown21.Value < 100) numericUpDown21.Value += 1;
                         break;
                 }
                 sum = 0;
@@ -380,6 +380,18 @@ namespace ノート重要度計算機
             }
         }
         
+//更新ボタン
+        private void button30_Click(object sender, EventArgs e)
+        {
+            int sum = 0, i;
+            for (i = 0; i < 9; i++)
+            {
+                sum += (int)NumericUpDowntab3(i * 2 + 4).Value;
+                sum += (int)NumericUpDowntab3(i * 2 + 5).Value;
+            }
+            numericUpDown22.Value = sum;
+        }
+
 //リセットボタン
         private void button29_Click(object sender, EventArgs e)
         {
@@ -429,5 +441,6 @@ namespace ノート重要度計算機
         {
             this.Close();
         }
+
     }
 }

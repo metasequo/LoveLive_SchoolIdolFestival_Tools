@@ -189,6 +189,7 @@
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown40)).BeginInit();
@@ -579,6 +580,7 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(784, 514);
             this.tabControl1.TabIndex = 79;
+            this.tabControl1.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // tabPage1
             // 
@@ -1236,6 +1238,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.button30);
             this.tabPage3.Controls.Add(this.button29);
             this.tabPage3.Controls.Add(this.label81);
             this.tabPage3.Controls.Add(this.button28);
@@ -1299,16 +1302,18 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "InputFileCreator";
             this.tabPage3.UseVisualStyleBackColor = true;
+            this.tabPage3.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // button29
             // 
-            this.button29.Location = new System.Drawing.Point(183, 357);
+            this.button29.Location = new System.Drawing.Point(19, 357);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(137, 49);
             this.button29.TabIndex = 142;
             this.button29.Text = "リセット";
             this.button29.UseVisualStyleBackColor = true;
             this.button29.Click += new System.EventHandler(this.button29_Click);
+            this.button29.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // label81
             // 
@@ -1402,7 +1407,7 @@
             // 
             this.numericUpDown22.Location = new System.Drawing.Point(372, 97);
             this.numericUpDown22.Maximum = new decimal(new int[] {
-            765,
+            1800,
             0,
             0,
             0});
@@ -1706,6 +1711,7 @@
             this.button20.TabIndex = 93;
             this.button20.Text = "4";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // button23
             // 
@@ -1715,6 +1721,7 @@
             this.button23.TabIndex = 92;
             this.button23.Text = "1";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // button22
             // 
@@ -1724,6 +1731,7 @@
             this.button22.TabIndex = 90;
             this.button22.Text = "2";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // button21
             // 
@@ -1733,6 +1741,7 @@
             this.button21.TabIndex = 87;
             this.button21.Text = "3";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // button19
             // 
@@ -1742,6 +1751,7 @@
             this.button19.TabIndex = 82;
             this.button19.Text = "5";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // button15
             // 
@@ -1751,6 +1761,7 @@
             this.button15.TabIndex = 86;
             this.button15.Text = "9";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // button16
             // 
@@ -1760,6 +1771,7 @@
             this.button16.TabIndex = 85;
             this.button16.Text = "8";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // button17
             // 
@@ -1769,6 +1781,7 @@
             this.button17.TabIndex = 84;
             this.button17.Text = "7";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // button18
             // 
@@ -1778,6 +1791,18 @@
             this.button18.TabIndex = 83;
             this.button18.Text = "6";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
+            // 
+            // button30
+            // 
+            this.button30.Location = new System.Drawing.Point(183, 357);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(137, 49);
+            this.button30.TabIndex = 143;
+            this.button30.Text = "更新";
+            this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
+            this.button30.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // Form1
             // 
@@ -2001,6 +2026,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown23;
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button button30;
     }
 }
 
