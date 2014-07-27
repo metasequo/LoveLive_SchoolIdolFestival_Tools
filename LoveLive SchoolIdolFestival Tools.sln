@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2013 for Windows Desktop
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveLive SchoolIdolFestival Tools", "ノート重要度計算機\LoveLive SchoolIdolFestival Tools.csproj", "{A931E71D-86FE-44D5-923D-76256E141C31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveLive SchoolIdolFestival Tools", "LoveLive SchoolIdolFestival Tools\LoveLive SchoolIdolFestival Tools.csproj", "{6DDAA825-693F-43B1-879E-57AFA2A7F2E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A931E71D-86FE-44D5-923D-76256E141C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A931E71D-86FE-44D5-923D-76256E141C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A931E71D-86FE-44D5-923D-76256E141C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A931E71D-86FE-44D5-923D-76256E141C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DDAA825-693F-43B1-879E-57AFA2A7F2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDAA825-693F-43B1-879E-57AFA2A7F2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDAA825-693F-43B1-879E-57AFA2A7F2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDAA825-693F-43B1-879E-57AFA2A7F2E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
