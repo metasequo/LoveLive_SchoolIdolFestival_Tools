@@ -14,6 +14,7 @@ namespace ノート重要度計算機
     public partial class Form1 : Form
     {
         static bool Record = false;
+        static bool Event = false;
 
         public Form1()
         {
@@ -183,12 +184,25 @@ namespace ノート重要度計算機
 //Rankup計算ボタン
         private void button14_Click(object sender, EventArgs e)
         {
-            int maxEXP, nowEXP, needEXP, mem, LP, i = 0, j = 0, k = 0;
+            int maxEXP, nowEXP, needEXP, Item, needItem = 0, mem, LP;
+            int i = 0, j = 0, k = 0, o = 0, p = 0, q = 0;
             maxEXP = (int)numericUpDown1.Value;
             nowEXP = (int)numericUpDown2.Value;
             LP = (int)numericUpDown3.Value;
             needEXP = maxEXP - nowEXP;
             mem = needEXP;
+            
+
+            if (checkBox4.Checked == true)
+            {
+                Event = true;
+                Item = (int)numericUpDown41.Value;
+            }
+            else
+            {
+                Event = false;
+                Item = 0;
+            }
 
             while (needEXP > 0){
                 needEXP -= 26;
@@ -224,33 +238,79 @@ namespace ノート重要度計算機
             i = 0;
             needEXP = mem;
             while (needEXP > 0){
-                if (needEXP >= 47 && checkBox3.Checked == true || (needEXP >= 27 && checkBox2.Checked == false && checkBox3.Checked == true))
+                if (Event == false || (Event == true && Item < 30))
                 {
-                    needEXP -= 83;
-                    i++;
+                    if (needEXP >= 47 && checkBox3.Checked == true || (needEXP >= 27 && checkBox2.Checked == false && checkBox3.Checked == true))
+                    {
+                        needEXP -= 83;
+                        if (Event) Item += 27;
+                        i++;
+                    }
+                    else if (needEXP >= 27 && checkBox2.Checked == true || (checkBox1.Checked == false && checkBox2.Checked == true))
+                    {
+                        needEXP -= 46;
+                        if (Event) Item += 16;
+                        j++;
+                    }
+                    else if (checkBox1.Checked == true)
+                    {
+                        needEXP -= 26;
+                        if (Event) Item += 10;
+                        k++;
+                    }
+                    else if (checkBox1.Checked == false && checkBox2.Checked == false && checkBox3.Checked == false)
+                    {
+                        needEXP -= 83;
+                        if (Event) Item += 27;
+                        i++;
+                    }
                 }
-                else if (needEXP >= 27 && checkBox2.Checked == true || (checkBox1.Checked == false && checkBox2.Checked == true))
+                if (Event == true && Item >= 30)
                 {
-                    needEXP -= 46;
-                    j++;
-                }
-                else if (checkBox1.Checked == true)
-                {
-                    needEXP -= 26;
-                    k++;
-                }
-                else if (checkBox1.Checked == false && checkBox2.Checked == false && checkBox3.Checked == false)
-                {
-                    needEXP -= 83;
-                    i++;
+                    if (checkBox3.Checked == true || (checkBox2.Checked == false && checkBox3.Checked == true))
+                    {
+                        needEXP -= 83;
+                        needItem += 75;
+                        Item -= 75;
+                        o++;
+                    }
+                    else if (checkBox2.Checked == true || (checkBox1.Checked == false && checkBox2.Checked == true))
+                    {
+                        needEXP -= 46;
+                        needItem += 45;
+                        Item -= 45;
+                        p++;
+                    }
+                    else if (checkBox1.Checked == true)
+                    {
+                        needEXP -= 26;
+                        needItem += 30;
+                        Item -= 30;
+                        q++;
+                    }
+                    else if (checkBox1.Checked == false && checkBox2.Checked == false && checkBox3.Checked == false)
+                    {
+                        needEXP -= 46;
+                        needItem += 45;
+                        Item -= 45;
+                        o++;
+                    }
+
                 }
             }
             label52.Text = k.ToString() + "回";
             label53.Text = j.ToString() + "回";
             label54.Text = i.ToString() + "回";
+            if (checkBox4.Checked == true)
+            {
+                label52.Text += " + イベント楽曲 " + q.ToString() + "回";
+                label53.Text += " + イベント楽曲 " + p.ToString() + "回";
+                label54.Text += " + イベント楽曲 " + o.ToString() + "回";
+            }
             label57.Text = (k * 10 + j * 15 + i * 25).ToString() + "LP";
             label58.Text = (((k * 10 + j * 15 + i * 25) - LP) * 6).ToString() + "分";
             label59.Text = ((((float)k * 10 + j * 15 + i * 25) - LP) * 6 / 60).ToString() + "時間";
+            label50.Text = needItem.ToString() + "個";
 
         }
 

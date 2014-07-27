@@ -88,6 +88,10 @@
             this.numericUpDown24 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown23 = new System.Windows.Forms.NumericUpDown();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label83 = new System.Windows.Forms.Label();
             this.label80 = new System.Windows.Forms.Label();
             this.button25 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
@@ -187,10 +191,10 @@
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
-            this.label83 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.numericUpDown41 = new System.Windows.Forms.NumericUpDown();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown40)).BeginInit();
@@ -235,6 +239,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown41)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -776,6 +781,10 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label50);
+            this.tabPage2.Controls.Add(this.label49);
+            this.tabPage2.Controls.Add(this.checkBox4);
+            this.tabPage2.Controls.Add(this.numericUpDown41);
             this.tabPage2.Controls.Add(this.checkBox3);
             this.tabPage2.Controls.Add(this.checkBox2);
             this.tabPage2.Controls.Add(this.checkBox1);
@@ -829,6 +838,45 @@
             this.tabPage2.Text = "ランクアップ計算機";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(56, 399);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(67, 16);
+            this.checkBox3.TabIndex = 85;
+            this.checkBox3.Text = "EXPERT";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(56, 359);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(56, 16);
+            this.checkBox2.TabIndex = 84;
+            this.checkBox2.Text = "HARD";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(56, 318);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(71, 16);
+            this.checkBox1.TabIndex = 83;
+            this.checkBox1.Text = "NORMAL";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Location = new System.Drawing.Point(54, 288);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(205, 12);
+            this.label83.TabIndex = 82;
+            this.label83.Text = "プレイする難易度にチェックをつけてください。";
+            // 
             // label80
             // 
             this.label80.AutoSize = true;
@@ -862,7 +910,7 @@
             // label59
             // 
             this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(488, 400);
+            this.label59.Location = new System.Drawing.Point(574, 360);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(47, 12);
             this.label59.TabIndex = 43;
@@ -1167,9 +1215,9 @@
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(195, 182);
+            this.button14.Location = new System.Drawing.Point(195, 214);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 50);
+            this.button14.Size = new System.Drawing.Size(75, 25);
             this.button14.TabIndex = 7;
             this.button14.Text = "計算";
             this.button14.UseVisualStyleBackColor = true;
@@ -1779,44 +1827,45 @@
             this.button18.UseVisualStyleBackColor = true;
             this.button18.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
-            // label83
+            // numericUpDown41
             // 
-            this.label83.AutoSize = true;
-            this.label83.Location = new System.Drawing.Point(54, 288);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(205, 12);
-            this.label83.TabIndex = 82;
-            this.label83.Text = "プレイする難易度にチェックをつけてください。";
+            this.numericUpDown41.Location = new System.Drawing.Point(195, 178);
+            this.numericUpDown41.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.numericUpDown41.Name = "numericUpDown41";
+            this.numericUpDown41.Size = new System.Drawing.Size(75, 19);
+            this.numericUpDown41.TabIndex = 87;
             // 
-            // checkBox1
+            // checkBox4
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(56, 318);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(71, 16);
-            this.checkBox1.TabIndex = 83;
-            this.checkBox1.Text = "NORMAL";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(33, 179);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(97, 16);
+            this.checkBox4.TabIndex = 88;
+            this.checkBox4.Text = "イベントアイテム";
+            this.checkBox4.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // label49
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(56, 359);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(56, 16);
-            this.checkBox2.TabIndex = 84;
-            this.checkBox2.Text = "HARD";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(351, 400);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(102, 12);
+            this.label49.TabIndex = 89;
+            this.label49.Text = "消費イベントアイテム";
             // 
-            // checkBox3
+            // label50
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(56, 394);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(67, 16);
-            this.checkBox3.TabIndex = 85;
-            this.checkBox3.Text = "EXPERT";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(488, 400);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(31, 12);
+            this.label50.TabIndex = 90;
+            this.label50.Text = "  0個";
             // 
             // Form1
             // 
@@ -1874,6 +1923,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown41)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2042,6 +2092,10 @@
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.NumericUpDown numericUpDown41;
     }
 }
 
