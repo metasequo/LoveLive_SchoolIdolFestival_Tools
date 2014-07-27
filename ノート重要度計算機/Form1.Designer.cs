@@ -99,9 +99,6 @@
             this.label54 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
@@ -133,6 +130,7 @@
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button30 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
             this.label81 = new System.Windows.Forms.Label();
             this.button28 = new System.Windows.Forms.Button();
@@ -189,7 +187,10 @@
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
+            this.label83 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown40)).BeginInit();
@@ -775,6 +776,10 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.checkBox3);
+            this.tabPage2.Controls.Add(this.checkBox2);
+            this.tabPage2.Controls.Add(this.checkBox1);
+            this.tabPage2.Controls.Add(this.label83);
             this.tabPage2.Controls.Add(this.label80);
             this.tabPage2.Controls.Add(this.button25);
             this.tabPage2.Controls.Add(this.button24);
@@ -786,9 +791,6 @@
             this.tabPage2.Controls.Add(this.label54);
             this.tabPage2.Controls.Add(this.label53);
             this.tabPage2.Controls.Add(this.label52);
-            this.tabPage2.Controls.Add(this.label51);
-            this.tabPage2.Controls.Add(this.label50);
-            this.tabPage2.Controls.Add(this.label49);
             this.tabPage2.Controls.Add(this.label48);
             this.tabPage2.Controls.Add(this.label47);
             this.tabPage2.Controls.Add(this.label46);
@@ -929,41 +931,14 @@
             this.label52.TabIndex = 36;
             this.label52.Text = " 0回";
             // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(56, 400);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(48, 12);
-            this.label51.TabIndex = 35;
-            this.label51.Text = "EXPERT";
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(62, 360);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(37, 12);
-            this.label50.TabIndex = 34;
-            this.label50.Text = "HARD";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(54, 320);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(52, 12);
-            this.label49.TabIndex = 33;
-            this.label49.Text = "NORMAL";
-            // 
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(33, 280);
+            this.label48.Location = new System.Drawing.Point(31, 263);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(186, 12);
+            this.label48.Size = new System.Drawing.Size(204, 12);
             this.label48.TabIndex = 32;
-            this.label48.Text = "最小限のLP消費でランクアップするには";
+            this.label48.Text = "最小限のLP消費でランクアップするには・・・";
             // 
             // label47
             // 
@@ -1303,6 +1278,17 @@
             this.tabPage3.Text = "InputFileCreator";
             this.tabPage3.UseVisualStyleBackColor = true;
             this.tabPage3.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
+            // 
+            // button30
+            // 
+            this.button30.Location = new System.Drawing.Point(183, 357);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(137, 49);
+            this.button30.TabIndex = 143;
+            this.button30.Text = "更新";
+            this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
+            this.button30.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
             // button29
             // 
@@ -1793,16 +1779,44 @@
             this.button18.UseVisualStyleBackColor = true;
             this.button18.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
-            // button30
+            // label83
             // 
-            this.button30.Location = new System.Drawing.Point(183, 357);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(137, 49);
-            this.button30.TabIndex = 143;
-            this.button30.Text = "更新";
-            this.button30.UseVisualStyleBackColor = true;
-            this.button30.Click += new System.EventHandler(this.button30_Click);
-            this.button30.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
+            this.label83.AutoSize = true;
+            this.label83.Location = new System.Drawing.Point(54, 288);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(205, 12);
+            this.label83.TabIndex = 82;
+            this.label83.Text = "プレイする難易度にチェックをつけてください。";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(56, 318);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(71, 16);
+            this.checkBox1.TabIndex = 83;
+            this.checkBox1.Text = "NORMAL";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(56, 359);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(56, 16);
+            this.checkBox2.TabIndex = 84;
+            this.checkBox2.Text = "HARD";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(56, 394);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(67, 16);
+            this.checkBox3.TabIndex = 85;
+            this.checkBox3.Text = "EXPERT";
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1911,9 +1925,6 @@
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label53;
         private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label46;
@@ -2027,6 +2038,10 @@
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.Button button29;
         private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.Label label83;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

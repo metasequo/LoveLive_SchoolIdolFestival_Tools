@@ -224,17 +224,25 @@ namespace ノート重要度計算機
             i = 0;
             needEXP = mem;
             while (needEXP > 0){
-                if (needEXP >= 47){
+                if (needEXP >= 47 && checkBox3.Checked == true || (needEXP >= 27 && checkBox2.Checked == false && checkBox3.Checked == true))
+                {
                     needEXP -= 83;
                     i++;
                 }
-                else if (needEXP >= 27){
+                else if (needEXP >= 27 && checkBox2.Checked == true || (checkBox1.Checked == false && checkBox2.Checked == true))
+                {
                     needEXP -= 46;
                     j++;
                 }
-                else{
+                else if (checkBox1.Checked == true)
+                {
                     needEXP -= 26;
                     k++;
+                }
+                else if (checkBox1.Checked == false && checkBox2.Checked == false && checkBox3.Checked == false)
+                {
+                    needEXP -= 83;
+                    i++;
                 }
             }
             label52.Text = k.ToString() + "回";

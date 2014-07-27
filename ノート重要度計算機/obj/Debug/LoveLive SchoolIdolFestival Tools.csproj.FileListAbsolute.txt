@@ -43,3 +43,12 @@ G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive_SchoolIdolFestiva
 G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\ノート重要度計算機.Form1.resources
 G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\ノート重要度計算機.Properties.Resources.resources
 G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\LoveLive SchoolIdolFestival Tools.csproj.GenerateResource.Cache
+G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\bin\Debug\ノート重要度計算機.exe.config
+G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\ノート重要度計算機.exe
+G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\ノート重要度計算機.pdb
+G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\bin\Debug\ノート重要度計算機.exe
+G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\bin\Debug\ノート重要度計算機.pdb
+G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\LoveLive SchoolIdolFestival Tools.csprojResolveAssemblyReference.cache
+G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\ノート重要度計算機.Form1.resources
+G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\ノート重要度計算機.Properties.Resources.resources
+G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\ノート重要度計算機\obj\Debug\LoveLive SchoolIdolFestival Tools.csproj.GenerateResource.Cache
