@@ -1,4 +1,4 @@
-LoveLive_SchoolIdolFestival_Tools
+LoveLive SchoolIdolFestival Tools
 =================================
 1. About -このソフトについて-
 ---------------------------------
@@ -17,7 +17,7 @@ LoveLive_SchoolIdolFestival_Tools
 
 ### 使い方  
 
-"/ ノート重要度計算機/bin/Debug" にある "ノート重要度計算機.exe" を起動してください。  
+"/LoveLive SchoolIdolFestival Tools/bin/Debug/LoveLive_SchoolIdolFestival_Tools.exe" を起動してください。  
 
 2.1. 各ノード重要度計算機
 --------------------------------
@@ -53,9 +53,10 @@ LoveLive_SchoolIdolFestival_Tools
 
 1. タブから「ランクアップ計算機」を選択します。
 2. 目標となる経験値、今現在の経験値、今現在のLPを入力します。
-3. 「計算」ボタンをクリックします。
-4. ランクアップまでに必要な各難易度毎（NORMAL、HARD、EXPERT）のプレイ回数、LP消費を最低限に抑えたプレイ回数が出力されます。
-5. 結果を保存したい時は、「保存」ボタンをクリックすると、保存できます。
+3. プレイする難易度にチェックをつけます。
+4. 「計算」ボタンをクリックします。
+5. ランクアップまでに必要な各難易度毎（NORMAL、HARD、EXPERT）のプレイ回数、LP消費を最低限に抑えたプレイ回数が出力されます。
+6. 結果を保存したい時は、「保存」ボタンをクリックすると、保存できます。
 
 2.3. InpuFileCreator
 --------------------------------
