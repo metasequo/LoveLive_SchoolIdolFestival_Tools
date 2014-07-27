@@ -184,7 +184,7 @@ namespace ノート重要度計算機
 //Rankup計算ボタン
         private void button14_Click(object sender, EventArgs e)
         {
-            int maxEXP, nowEXP, needEXP, Item, needItem = 0, mem, LP;
+            int maxEXP, nowEXP, needEXP, Item = 0, needItem = 0, mem, LP;
             int i = 0, j = 0, k = 0, o = 0, p = 0, q = 0;
             maxEXP = (int)numericUpDown1.Value;
             nowEXP = (int)numericUpDown2.Value;
@@ -198,7 +198,7 @@ namespace ノート重要度計算機
                 Event = true;
                 Item = (int)numericUpDown41.Value;
             }
-            else
+            if (checkBox4.Checked == false)
             {
                 Event = false;
                 Item = 0;
@@ -238,50 +238,22 @@ namespace ノート重要度計算機
             i = 0;
             needEXP = mem;
             while (needEXP > 0){
-                if (Event == false || (Event == true && Item < 30))
-                {
-                    if (needEXP >= 47 && checkBox3.Checked == true || (needEXP >= 27 && checkBox2.Checked == false && checkBox3.Checked == true))
-                    {
-                        needEXP -= 83;
-                        if (Event) Item += 27;
-                        i++;
-                    }
-                    else if (needEXP >= 27 && checkBox2.Checked == true || (checkBox1.Checked == false && checkBox2.Checked == true))
-                    {
-                        needEXP -= 46;
-                        if (Event) Item += 16;
-                        j++;
-                    }
-                    else if (checkBox1.Checked == true)
-                    {
-                        needEXP -= 26;
-                        if (Event) Item += 10;
-                        k++;
-                    }
-                    else if (checkBox1.Checked == false && checkBox2.Checked == false && checkBox3.Checked == false)
-                    {
-                        needEXP -= 83;
-                        if (Event) Item += 27;
-                        i++;
-                    }
-                }
                 if (Event == true && Item >= 30)
                 {
-                    if (checkBox3.Checked == true || (checkBox2.Checked == false && checkBox3.Checked == true))
+                    if (checkBox3.Checked == true && Item >= 75 && needEXP >= 47 || (checkBox2.Checked == false && checkBox3.Checked == true))
                     {
                         needEXP -= 83;
                         needItem += 75;
                         Item -= 75;
                         o++;
                     }
-                    else if (checkBox2.Checked == true || (checkBox1.Checked == false && checkBox2.Checked == true))
-                    {
+                    else if (checkBox2.Checked == true && Item >= 45 && needEXP >= 27 || (checkBox1.Checked == false && checkBox2.Checked == true)){
                         needEXP -= 46;
                         needItem += 45;
                         Item -= 45;
                         p++;
                     }
-                    else if (checkBox1.Checked == true)
+                    else if (checkBox1.Checked == true && Item >= 30)
                     {
                         needEXP -= 26;
                         needItem += 30;
@@ -293,10 +265,37 @@ namespace ノート重要度計算機
                         needEXP -= 46;
                         needItem += 45;
                         Item -= 45;
-                        o++;
+                        p++;
                     }
-
                 }
+                else if (Event == false || (Event == true && Item < 30))
+                {
+                    if (checkBox3.Checked == true && needEXP >= 47 || (needEXP >= 27 && checkBox2.Checked == false && checkBox3.Checked == true))
+                    {
+                        needEXP -= 83;
+                        if (Event == true) Item += 27;
+                        i++;
+                    }
+                    else if (checkBox2.Checked == true && needEXP >= 27 || (checkBox1.Checked == false && checkBox2.Checked == true))
+                    {
+                        needEXP -= 46;
+                        if (Event == true) Item += 16;
+                        j++;
+                    }
+                    else if (checkBox1.Checked == true)
+                    {
+                        needEXP -= 26;
+                        if (Event == true) Item += 10;
+                        k++;
+                    }
+                    else if (checkBox1.Checked == false && checkBox2.Checked == false && checkBox3.Checked == false)
+                    {
+                        needEXP -= 83;
+                        if (Event == true) Item += 27;
+                        i++;
+                    }
+                }
+
             }
             label52.Text = k.ToString() + "回";
             label53.Text = j.ToString() + "回";
