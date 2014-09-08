@@ -186,6 +186,7 @@ namespace ノート重要度計算機
         {
             int maxEXP, nowEXP, needEXP, Item = 0, needItem = 0, mem, LP;
             int i = 0, j = 0, k = 0, o = 0, p = 0, q = 0;
+            DateTime dt1 = DateTime.Now;
             maxEXP = (int)numericUpDown1.Value;
             nowEXP = (int)numericUpDown2.Value;
             LP = (int)numericUpDown3.Value;
@@ -310,6 +311,10 @@ namespace ノート重要度計算機
             label58.Text = (((k * 10 + j * 15 + i * 25) - LP) * 6).ToString() + "分";
             label59.Text = ((((float)k * 10 + j * 15 + i * 25) - LP) * 6 / 60).ToString() + "時間";
             label50.Text = needItem.ToString() + "個";
+
+            TimeSpan ts1 = new TimeSpan(0, 0, (((k * 10 + j * 15 + i * 25) - LP) * 6), 0);
+            DateTime dt2 = dt1 + ts1;
+            label51.Text = dt2.Year + "年" + dt2.Month + "月" + dt2.Day + "日" + dt2.Hour + "時" + dt2.Minute + "分頃";
 
         }
 

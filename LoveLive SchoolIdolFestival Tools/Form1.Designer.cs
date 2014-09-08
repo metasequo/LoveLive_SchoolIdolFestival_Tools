@@ -88,6 +88,10 @@
             this.numericUpDown24 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown23 = new System.Windows.Forms.NumericUpDown();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.numericUpDown41 = new System.Windows.Forms.NumericUpDown();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -191,10 +195,7 @@
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
-            this.numericUpDown41 = new System.Windows.Forms.NumericUpDown();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown40)).BeginInit();
@@ -216,6 +217,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).BeginInit();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown41)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -239,7 +241,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown41)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -781,6 +782,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label51);
             this.tabPage2.Controls.Add(this.label50);
             this.tabPage2.Controls.Add(this.label49);
             this.tabPage2.Controls.Add(this.checkBox4);
@@ -837,6 +839,46 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ランクアップ計算機";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(488, 400);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(31, 12);
+            this.label50.TabIndex = 90;
+            this.label50.Text = "  0個";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(351, 400);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(102, 12);
+            this.label49.TabIndex = 89;
+            this.label49.Text = "消費イベントアイテム";
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(33, 179);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(97, 16);
+            this.checkBox4.TabIndex = 3;
+            this.checkBox4.Text = "イベントアイテム";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown41
+            // 
+            this.numericUpDown41.Location = new System.Drawing.Point(195, 178);
+            this.numericUpDown41.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.numericUpDown41.Name = "numericUpDown41";
+            this.numericUpDown41.Size = new System.Drawing.Size(75, 19);
+            this.numericUpDown41.TabIndex = 4;
             // 
             // checkBox3
             // 
@@ -1827,45 +1869,14 @@
             this.button18.UseVisualStyleBackColor = true;
             this.button18.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
-            // numericUpDown41
+            // label51
             // 
-            this.numericUpDown41.Location = new System.Drawing.Point(195, 178);
-            this.numericUpDown41.Maximum = new decimal(new int[] {
-            100000,
-            0,
-            0,
-            0});
-            this.numericUpDown41.Name = "numericUpDown41";
-            this.numericUpDown41.Size = new System.Drawing.Size(75, 19);
-            this.numericUpDown41.TabIndex = 4;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(33, 179);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(97, 16);
-            this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "イベントアイテム";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(351, 400);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(102, 12);
-            this.label49.TabIndex = 89;
-            this.label49.Text = "消費イベントアイテム";
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(488, 400);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(31, 12);
-            this.label50.TabIndex = 90;
-            this.label50.Text = "  0個";
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(574, 384);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(125, 12);
+            this.label51.TabIndex = 91;
+            this.label51.Text = "    年  月  日  時  分頃";
             // 
             // Form1
             // 
@@ -1899,6 +1910,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown41)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -1923,7 +1935,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown41)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2096,6 +2107,7 @@
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.NumericUpDown numericUpDown41;
+        private System.Windows.Forms.Label label51;
     }
 }
 
