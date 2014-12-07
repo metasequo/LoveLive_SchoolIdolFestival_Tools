@@ -514,5 +514,144 @@ namespace ノート重要度計算機
             this.Close();
         }
 
+
+
+//
+//メドレーフェスティバル
+//
+
+//計算ボタン
+        private void button33_Click(object sender, EventArgs e)
+        {
+            double EventPt, Exp;
+            int difficulty, trac;
+            int[,] basic = new int [,] {{241, 500, 777},
+                                        {126, 262, 408},
+                                        {72, 150, 234},
+                                        {31, 64, 99}};
+            int[] playLP = new int[] { 20, 12, 8, 4 };
+
+            trac = (int)numericUpDown42.Value;
+
+            switch (comboBox2.Text)
+            {
+                case "EXPERT":
+                    difficulty = 0;
+                    Exp = 83;
+                    break;
+                case "HARD":
+                    difficulty = 1;
+                    Exp = 46;
+                    break;
+                case "NORMAL":
+                    difficulty = 2;
+                    Exp = 26;
+                    break;
+                case "EASY":
+                    difficulty = 3;
+                    Exp = 12;
+                    break;
+                default:
+                    difficulty = 0;
+                    Exp = 1;
+                    break;
+            }
+
+            EventPt = basic[difficulty, trac - 1];
+            Exp = Exp * trac;
+
+            switch(comboBox3.Text)
+            {
+                case "S":
+                    EventPt *= 1.2;
+                    break;
+                case "A":
+                    EventPt *= 1.15;
+                    break;
+                case "B":
+                    EventPt *= 1.1;
+                    break;
+                case "C":
+                    EventPt *= 1.05;
+                    break;
+            }
+
+            switch (comboBox4.Text)
+            {
+                case "S":
+                    EventPt *= 1.08;
+                    break;
+                case "A":
+                    EventPt *= 1.06;
+                    break;
+                case "B":
+                    EventPt *= 1.04;
+                    break;
+                case "C":
+                    EventPt *= 1.02;
+                    break;
+            }
+
+            if (checkBox5.Checked == true)
+            {
+                EventPt *= 1.1;
+            }
+            Math.Round(EventPt, MidpointRounding.AwayFromZero);
+
+            if (checkBox6.Checked == true)
+            {
+                Exp *= 1.1;
+            }
+            Math.Round(Exp, MidpointRounding.AwayFromZero);
+
+            label93.Text = Math.Round(EventPt, MidpointRounding.AwayFromZero).ToString() + "Pt";
+            label94.Text = Math.Round(Exp * trac, MidpointRounding.AwayFromZero).ToString() + "Exp";
+
+//ランクアップ計算
+            if (checkBox7.Checked == true)
+            {
+                int maxEXP, nowEXP, needEXP;
+                int nowLP, needLP;
+                int i = 0;
+                DateTime dt1 = DateTime.Now, dt2;
+
+                maxEXP = (int)numericUpDown43.Value;
+                nowEXP = (int)numericUpDown44.Value;
+                needEXP = maxEXP - nowEXP;
+                nowLP = (int)numericUpDown48.Value;
+
+                while (needEXP > 0)
+                {
+                    needEXP -= (int)Math.Round(Exp, MidpointRounding.AwayFromZero);
+                    ++i;
+                }
+
+                needLP = i * playLP[difficulty] * trac;
+
+                label104.Text = i.ToString() + "回";
+                label106.Text = needLP.ToString() + "LP";
+                label108.Text = ((needLP - nowLP) * 6).ToString() + "分";
+                label109.Text = (((float)needLP - nowLP) * 6 / 60).ToString() + "時間";
+
+                TimeSpan ts1 = new TimeSpan(0, 0, ((needLP - nowLP) * 6), 0);
+                dt2 = dt1 + ts1;
+                label110.Text = dt2.Year + "年" + dt2.Month + "月" + dt2.Day + "日" + dt2.Hour + "時" + dt2.Minute + "分頃";
+            }
+
+        }
+
+//終了ボタン
+        private void button32_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        //保存ボタン
+        private void button31_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }

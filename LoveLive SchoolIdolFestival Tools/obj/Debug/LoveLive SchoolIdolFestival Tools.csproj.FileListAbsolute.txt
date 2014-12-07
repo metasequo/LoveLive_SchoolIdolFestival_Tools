@@ -73,3 +73,12 @@ G:\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestiva
 C:\Users\K-Hamamoto\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\bin\Debug\LoveLive_SchoolIdolFestival_Tools.exe.config
 C:\Users\K-Hamamoto\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive_SchoolIdolFestival_Tools.exe
 C:\Users\K-Hamamoto\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive_SchoolIdolFestival_Tools.pdb
+G:\Documents\Visual Studio 2013\Projects\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\bin\Debug\LoveLive_SchoolIdolFestival_Tools.exe.config
+G:\Documents\Visual Studio 2013\Projects\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive_SchoolIdolFestival_Tools.exe
+G:\Documents\Visual Studio 2013\Projects\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive_SchoolIdolFestival_Tools.pdb
+G:\Documents\Visual Studio 2013\Projects\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\bin\Debug\LoveLive_SchoolIdolFestival_Tools.exe
+G:\Documents\Visual Studio 2013\Projects\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\bin\Debug\LoveLive_SchoolIdolFestival_Tools.pdb
+G:\Documents\Visual Studio 2013\Projects\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive SchoolIdolFestival Tools.csprojResolveAssemblyReference.cache
+G:\Documents\Visual Studio 2013\Projects\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\ノート重要度計算機.Form1.resources
+G:\Documents\Visual Studio 2013\Projects\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive_SchoolIdolFestival_Tools.Properties.Resources.resources
+G:\Documents\Visual Studio 2013\Projects\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive SchoolIdolFestival Tools.csproj.GenerateResource.Cache
