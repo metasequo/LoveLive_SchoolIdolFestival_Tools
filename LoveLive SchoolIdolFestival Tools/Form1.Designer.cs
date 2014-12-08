@@ -196,69 +196,69 @@
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label88 = new System.Windows.Forms.Label();
-            this.numericUpDown42 = new System.Windows.Forms.NumericUpDown();
-            this.label89 = new System.Windows.Forms.Label();
-            this.label86 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label85 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label84 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.label87 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label91 = new System.Windows.Forms.Label();
-            this.label92 = new System.Windows.Forms.Label();
-            this.label90 = new System.Windows.Forms.Label();
-            this.button33 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.numericUpDown43 = new System.Windows.Forms.NumericUpDown();
-            this.label96 = new System.Windows.Forms.Label();
-            this.numericUpDown44 = new System.Windows.Forms.NumericUpDown();
-            this.label95 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.numericUpDown46 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown45 = new System.Windows.Forms.NumericUpDown();
-            this.label98 = new System.Windows.Forms.Label();
-            this.label97 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.numericUpDown47 = new System.Windows.Forms.NumericUpDown();
-            this.label100 = new System.Windows.Forms.Label();
-            this.numericUpDown48 = new System.Windows.Forms.NumericUpDown();
-            this.label101 = new System.Windows.Forms.Label();
-            this.label99 = new System.Windows.Forms.Label();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label106 = new System.Windows.Forms.Label();
-            this.label107 = new System.Windows.Forms.Label();
-            this.label105 = new System.Windows.Forms.Label();
-            this.label108 = new System.Windows.Forms.Label();
-            this.label102 = new System.Windows.Forms.Label();
-            this.label109 = new System.Windows.Forms.Label();
-            this.label104 = new System.Windows.Forms.Label();
-            this.label103 = new System.Windows.Forms.Label();
-            this.label110 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label116 = new System.Windows.Forms.Label();
-            this.label114 = new System.Windows.Forms.Label();
-            this.label111 = new System.Windows.Forms.Label();
-            this.label112 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.label113 = new System.Windows.Forms.Label();
-            this.label93 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
-            this.label115 = new System.Windows.Forms.Label();
-            this.label117 = new System.Windows.Forms.Label();
-            this.label118 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.label119 = new System.Windows.Forms.Label();
+            this.label118 = new System.Windows.Forms.Label();
+            this.label117 = new System.Windows.Forms.Label();
+            this.label115 = new System.Windows.Forms.Label();
+            this.label113 = new System.Windows.Forms.Label();
+            this.label112 = new System.Windows.Forms.Label();
+            this.label111 = new System.Windows.Forms.Label();
+            this.label114 = new System.Windows.Forms.Label();
+            this.label116 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label110 = new System.Windows.Forms.Label();
+            this.label103 = new System.Windows.Forms.Label();
+            this.label104 = new System.Windows.Forms.Label();
+            this.label109 = new System.Windows.Forms.Label();
+            this.label102 = new System.Windows.Forms.Label();
+            this.label108 = new System.Windows.Forms.Label();
+            this.label105 = new System.Windows.Forms.Label();
+            this.label107 = new System.Windows.Forms.Label();
+            this.label106 = new System.Windows.Forms.Label();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label99 = new System.Windows.Forms.Label();
+            this.label101 = new System.Windows.Forms.Label();
+            this.numericUpDown48 = new System.Windows.Forms.NumericUpDown();
+            this.label100 = new System.Windows.Forms.Label();
+            this.numericUpDown47 = new System.Windows.Forms.NumericUpDown();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.numericUpDown45 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown46 = new System.Windows.Forms.NumericUpDown();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label95 = new System.Windows.Forms.Label();
+            this.numericUpDown44 = new System.Windows.Forms.NumericUpDown();
+            this.label96 = new System.Windows.Forms.Label();
+            this.numericUpDown43 = new System.Windows.Forms.NumericUpDown();
+            this.button33 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
+            this.label92 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label87 = new System.Windows.Forms.Label();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label84 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.label85 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label86 = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.numericUpDown42 = new System.Windows.Forms.NumericUpDown();
+            this.label88 = new System.Windows.Forms.Label();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown41)).BeginInit();
@@ -304,22 +304,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            this.tabPage4.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown48)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown47)).BeginInit();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown45)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown46)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown44)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown43)).BeginInit();
+            this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown42)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown44)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown46)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown45)).BeginInit();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown47)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown48)).BeginInit();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.tabPage4.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -1958,25 +1958,517 @@
             this.button18.UseVisualStyleBackColor = true;
             this.button18.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
-            // button31
+            // tabPage4
             // 
-            this.button31.Location = new System.Drawing.Point(645, 404);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(75, 23);
-            this.button31.TabIndex = 26;
-            this.button31.Text = "保存";
-            this.button31.UseVisualStyleBackColor = true;
-            this.button31.Click += new System.EventHandler(this.button31_Click);
+            this.tabPage4.Controls.Add(this.panel8);
+            this.tabPage4.Controls.Add(this.panel7);
+            this.tabPage4.Controls.Add(this.checkBox7);
+            this.tabPage4.Controls.Add(this.panel6);
+            this.tabPage4.Controls.Add(this.panel5);
+            this.tabPage4.Controls.Add(this.panel4);
+            this.tabPage4.Controls.Add(this.button33);
+            this.tabPage4.Controls.Add(this.panel3);
+            this.tabPage4.Controls.Add(this.panel2);
+            this.tabPage4.Controls.Add(this.panel1);
+            this.tabPage4.Controls.Add(this.button32);
+            this.tabPage4.Controls.Add(this.button31);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(767, 526);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "メドレーフェスティバル";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // button32
+            // panel8
             // 
-            this.button32.Location = new System.Drawing.Point(645, 433);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(75, 23);
-            this.button32.TabIndex = 27;
-            this.button32.Text = "終了";
-            this.button32.UseVisualStyleBackColor = true;
-            this.button32.Click += new System.EventHandler(this.button32_Click);
+            this.panel8.Controls.Add(this.label119);
+            this.panel8.Controls.Add(this.label118);
+            this.panel8.Controls.Add(this.label117);
+            this.panel8.Controls.Add(this.label115);
+            this.panel8.Controls.Add(this.label113);
+            this.panel8.Controls.Add(this.label112);
+            this.panel8.Controls.Add(this.label111);
+            this.panel8.Controls.Add(this.label114);
+            this.panel8.Controls.Add(this.label116);
+            this.panel8.Location = new System.Drawing.Point(238, 287);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(206, 140);
+            this.panel8.TabIndex = 96;
+            // 
+            // label119
+            // 
+            this.label119.Location = new System.Drawing.Point(24, 116);
+            this.label119.Name = "label119";
+            this.label119.Size = new System.Drawing.Size(173, 12);
+            this.label119.TabIndex = 100;
+            this.label119.Text = "年  月  日  時  分頃";
+            this.label119.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label118
+            // 
+            this.label118.Location = new System.Drawing.Point(126, 93);
+            this.label118.Name = "label118";
+            this.label118.Size = new System.Drawing.Size(71, 12);
+            this.label118.TabIndex = 99;
+            this.label118.Text = "0.0時間";
+            this.label118.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label117
+            // 
+            this.label117.Location = new System.Drawing.Point(126, 70);
+            this.label117.Name = "label117";
+            this.label117.Size = new System.Drawing.Size(71, 12);
+            this.label117.TabIndex = 98;
+            this.label117.Text = "0分";
+            this.label117.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label115
+            // 
+            this.label115.Location = new System.Drawing.Point(126, 47);
+            this.label115.Name = "label115";
+            this.label115.Size = new System.Drawing.Size(71, 12);
+            this.label115.TabIndex = 97;
+            this.label115.Text = "0LP";
+            this.label115.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label113
+            // 
+            this.label113.Location = new System.Drawing.Point(126, 24);
+            this.label113.Name = "label113";
+            this.label113.Size = new System.Drawing.Size(71, 12);
+            this.label113.TabIndex = 96;
+            this.label113.Text = "0回";
+            this.label113.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label112
+            // 
+            this.label112.AutoSize = true;
+            this.label112.Location = new System.Drawing.Point(22, 24);
+            this.label112.Name = "label112";
+            this.label112.Size = new System.Drawing.Size(56, 12);
+            this.label112.TabIndex = 95;
+            this.label112.Text = "プレイ回数";
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.Location = new System.Drawing.Point(-2, 0);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(84, 12);
+            this.label111.TabIndex = 66;
+            this.label111.Text = "目標ポイントまで";
+            // 
+            // label114
+            // 
+            this.label114.AutoSize = true;
+            this.label114.Location = new System.Drawing.Point(22, 47);
+            this.label114.Name = "label114";
+            this.label114.Size = new System.Drawing.Size(42, 12);
+            this.label114.TabIndex = 67;
+            this.label114.Text = "必要LP";
+            // 
+            // label116
+            // 
+            this.label116.AutoSize = true;
+            this.label116.Location = new System.Drawing.Point(22, 70);
+            this.label116.Name = "label116";
+            this.label116.Size = new System.Drawing.Size(53, 12);
+            this.label116.TabIndex = 69;
+            this.label116.Text = "回復時間";
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.label110);
+            this.panel7.Controls.Add(this.label103);
+            this.panel7.Controls.Add(this.label104);
+            this.panel7.Controls.Add(this.label109);
+            this.panel7.Controls.Add(this.label102);
+            this.panel7.Controls.Add(this.label108);
+            this.panel7.Controls.Add(this.label105);
+            this.panel7.Controls.Add(this.label107);
+            this.panel7.Controls.Add(this.label106);
+            this.panel7.Location = new System.Drawing.Point(17, 287);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(173, 140);
+            this.panel7.TabIndex = 68;
+            // 
+            // label110
+            // 
+            this.label110.Location = new System.Drawing.Point(24, 116);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(137, 12);
+            this.label110.TabIndex = 93;
+            this.label110.Text = "年  月  日  時  分頃";
+            this.label110.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label103
+            // 
+            this.label103.AutoSize = true;
+            this.label103.Location = new System.Drawing.Point(22, 24);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(56, 12);
+            this.label103.TabIndex = 95;
+            this.label103.Text = "プレイ回数";
+            // 
+            // label104
+            // 
+            this.label104.Location = new System.Drawing.Point(92, 24);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(69, 12);
+            this.label104.TabIndex = 94;
+            this.label104.Text = "0回";
+            this.label104.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label109
+            // 
+            this.label109.Location = new System.Drawing.Point(92, 93);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(69, 12);
+            this.label109.TabIndex = 92;
+            this.label109.Text = "0.0時間";
+            this.label109.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label102
+            // 
+            this.label102.AutoSize = true;
+            this.label102.Location = new System.Drawing.Point(-2, 0);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(93, 12);
+            this.label102.TabIndex = 66;
+            this.label102.Text = "ランクアップするまで";
+            // 
+            // label108
+            // 
+            this.label108.Location = new System.Drawing.Point(92, 70);
+            this.label108.Name = "label108";
+            this.label108.Size = new System.Drawing.Size(69, 12);
+            this.label108.TabIndex = 70;
+            this.label108.Text = "0分";
+            this.label108.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label105
+            // 
+            this.label105.AutoSize = true;
+            this.label105.Location = new System.Drawing.Point(22, 47);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(42, 12);
+            this.label105.TabIndex = 67;
+            this.label105.Text = "必要LP";
+            // 
+            // label107
+            // 
+            this.label107.AutoSize = true;
+            this.label107.Location = new System.Drawing.Point(22, 70);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(53, 12);
+            this.label107.TabIndex = 69;
+            this.label107.Text = "回復時間";
+            // 
+            // label106
+            // 
+            this.label106.Location = new System.Drawing.Point(92, 47);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(69, 12);
+            this.label106.TabIndex = 65;
+            this.label106.Text = "0LP";
+            this.label106.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(17, 202);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(126, 16);
+            this.checkBox7.TabIndex = 36;
+            this.checkBox7.Text = "ランクアップ計算をする";
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.label99);
+            this.panel6.Controls.Add(this.label101);
+            this.panel6.Controls.Add(this.numericUpDown48);
+            this.panel6.Controls.Add(this.label100);
+            this.panel6.Controls.Add(this.numericUpDown47);
+            this.panel6.Location = new System.Drawing.Point(492, 202);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(174, 67);
+            this.panel6.TabIndex = 60;
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Location = new System.Drawing.Point(3, 0);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(118, 12);
+            this.label99.TabIndex = 58;
+            this.label99.Text = "現状を入力して下さい。";
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Location = new System.Drawing.Point(12, 50);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(42, 12);
+            this.label101.TabIndex = 64;
+            this.label101.Text = "現在LP";
+            // 
+            // numericUpDown48
+            // 
+            this.numericUpDown48.Location = new System.Drawing.Point(93, 47);
+            this.numericUpDown48.Maximum = new decimal(new int[] {
+            20000,
+            0,
+            0,
+            0});
+            this.numericUpDown48.Name = "numericUpDown48";
+            this.numericUpDown48.Size = new System.Drawing.Size(69, 19);
+            this.numericUpDown48.TabIndex = 61;
+            // 
+            // label100
+            // 
+            this.label100.AutoSize = true;
+            this.label100.Location = new System.Drawing.Point(12, 25);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(54, 12);
+            this.label100.TabIndex = 63;
+            this.label100.Text = "現在ランク";
+            // 
+            // numericUpDown47
+            // 
+            this.numericUpDown47.Location = new System.Drawing.Point(93, 22);
+            this.numericUpDown47.Maximum = new decimal(new int[] {
+            20000,
+            0,
+            0,
+            0});
+            this.numericUpDown47.Name = "numericUpDown47";
+            this.numericUpDown47.Size = new System.Drawing.Size(69, 19);
+            this.numericUpDown47.TabIndex = 57;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.label97);
+            this.panel5.Controls.Add(this.label98);
+            this.panel5.Controls.Add(this.numericUpDown45);
+            this.panel5.Controls.Add(this.numericUpDown46);
+            this.panel5.Controls.Add(this.checkBox8);
+            this.panel5.Location = new System.Drawing.Point(238, 202);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(206, 67);
+            this.panel5.TabIndex = 58;
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Location = new System.Drawing.Point(12, 25);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(101, 12);
+            this.label97.TabIndex = 49;
+            this.label97.Text = "目標イベントポイント";
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Location = new System.Drawing.Point(12, 50);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(101, 12);
+            this.label98.TabIndex = 53;
+            this.label98.Text = "現在イベントポイント";
+            // 
+            // numericUpDown45
+            // 
+            this.numericUpDown45.Location = new System.Drawing.Point(128, 22);
+            this.numericUpDown45.Maximum = new decimal(new int[] {
+            2097150,
+            0,
+            0,
+            0});
+            this.numericUpDown45.Name = "numericUpDown45";
+            this.numericUpDown45.Size = new System.Drawing.Size(69, 19);
+            this.numericUpDown45.TabIndex = 56;
+            // 
+            // numericUpDown46
+            // 
+            this.numericUpDown46.Location = new System.Drawing.Point(128, 47);
+            this.numericUpDown46.Maximum = new decimal(new int[] {
+            2097150,
+            0,
+            0,
+            0});
+            this.numericUpDown46.Name = "numericUpDown46";
+            this.numericUpDown46.Size = new System.Drawing.Size(69, 19);
+            this.numericUpDown46.TabIndex = 54;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(0, 0);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(148, 16);
+            this.checkBox8.TabIndex = 59;
+            this.checkBox8.Text = "イベントポイント計算をする";
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.label95);
+            this.panel4.Controls.Add(this.numericUpDown44);
+            this.panel4.Controls.Add(this.label96);
+            this.panel4.Controls.Add(this.numericUpDown43);
+            this.panel4.Location = new System.Drawing.Point(17, 202);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(173, 67);
+            this.panel4.TabIndex = 48;
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Location = new System.Drawing.Point(12, 25);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(65, 12);
+            this.label95.TabIndex = 49;
+            this.label95.Text = "目標経験値";
+            // 
+            // numericUpDown44
+            // 
+            this.numericUpDown44.Location = new System.Drawing.Point(92, 47);
+            this.numericUpDown44.Maximum = new decimal(new int[] {
+            131070,
+            0,
+            0,
+            0});
+            this.numericUpDown44.Name = "numericUpDown44";
+            this.numericUpDown44.Size = new System.Drawing.Size(69, 19);
+            this.numericUpDown44.TabIndex = 56;
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Location = new System.Drawing.Point(12, 50);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(65, 12);
+            this.label96.TabIndex = 51;
+            this.label96.Text = "現在経験値";
+            // 
+            // numericUpDown43
+            // 
+            this.numericUpDown43.Location = new System.Drawing.Point(92, 22);
+            this.numericUpDown43.Maximum = new decimal(new int[] {
+            131070,
+            0,
+            0,
+            0});
+            this.numericUpDown43.Name = "numericUpDown43";
+            this.numericUpDown43.Size = new System.Drawing.Size(69, 19);
+            this.numericUpDown43.TabIndex = 32;
+            // 
+            // button33
+            // 
+            this.button33.Location = new System.Drawing.Point(541, 31);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(77, 62);
+            this.button33.TabIndex = 47;
+            this.button33.Text = "計算";
+            this.button33.UseVisualStyleBackColor = true;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.label94);
+            this.panel3.Controls.Add(this.label93);
+            this.panel3.Controls.Add(this.label90);
+            this.panel3.Controls.Add(this.label92);
+            this.panel3.Controls.Add(this.label91);
+            this.panel3.Location = new System.Drawing.Point(17, 122);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(173, 62);
+            this.panel3.TabIndex = 44;
+            // 
+            // label94
+            // 
+            this.label94.Location = new System.Drawing.Point(94, 48);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(69, 12);
+            this.label94.TabIndex = 97;
+            this.label94.Text = "0Exp";
+            this.label94.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label93
+            // 
+            this.label93.Location = new System.Drawing.Point(94, 24);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(69, 12);
+            this.label93.TabIndex = 96;
+            this.label93.Text = "0回";
+            this.label93.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.Location = new System.Drawing.Point(-2, 0);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(136, 12);
+            this.label90.TabIndex = 40;
+            this.label90.Text = "1プレイで獲得できるポイント";
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Location = new System.Drawing.Point(12, 48);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(65, 12);
+            this.label92.TabIndex = 43;
+            this.label92.Text = "獲得経験値";
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Location = new System.Drawing.Point(12, 24);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(76, 12);
+            this.label91.TabIndex = 42;
+            this.label91.Text = "獲得イベントPt";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label87);
+            this.panel2.Controls.Add(this.checkBox5);
+            this.panel2.Controls.Add(this.checkBox6);
+            this.panel2.Location = new System.Drawing.Point(372, 20);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(134, 84);
+            this.panel2.TabIndex = 41;
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Location = new System.Drawing.Point(-2, 0);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(131, 12);
+            this.label87.TabIndex = 31;
+            this.label87.Text = "アレンジを選択して下さい。";
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(16, 29);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(95, 16);
+            this.checkBox5.TabIndex = 34;
+            this.checkBox5.Text = "イベントptアップ";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(16, 55);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(94, 16);
+            this.checkBox6.TabIndex = 35;
+            this.checkBox6.Text = "獲得EXPアップ";
+            this.checkBox6.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -1994,14 +2486,85 @@
             this.panel1.Size = new System.Drawing.Size(314, 84);
             this.panel1.TabIndex = 1;
             // 
-            // label88
+            // label84
             // 
-            this.label88.AutoSize = true;
-            this.label88.Location = new System.Drawing.Point(182, 31);
-            this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(56, 12);
-            this.label88.TabIndex = 33;
-            this.label88.Text = "スコアランク";
+            this.label84.AutoSize = true;
+            this.label84.Location = new System.Drawing.Point(-2, 0);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(157, 12);
+            this.label84.TabIndex = 0;
+            this.label84.Text = "プレイスタイルを選択して下さい。";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "EXPERT",
+            "HARD",
+            "NORMAL",
+            "EASY"});
+            this.comboBox2.Location = new System.Drawing.Point(59, 27);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(70, 20);
+            this.comboBox2.TabIndex = 1;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "S",
+            "A",
+            "B",
+            "C",
+            "なし"});
+            this.comboBox4.Location = new System.Drawing.Point(244, 53);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(70, 20);
+            this.comboBox4.TabIndex = 39;
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Location = new System.Drawing.Point(12, 31);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(41, 12);
+            this.label85.TabIndex = 28;
+            this.label85.Text = "難易度";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "S",
+            "A",
+            "B",
+            "C",
+            "なし"});
+            this.comboBox3.Location = new System.Drawing.Point(244, 27);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(70, 20);
+            this.comboBox3.TabIndex = 38;
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Location = new System.Drawing.Point(12, 56);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(29, 12);
+            this.label86.TabIndex = 29;
+            this.label86.Text = "曲数";
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Location = new System.Drawing.Point(182, 57);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(57, 12);
+            this.label89.TabIndex = 36;
+            this.label89.Text = "コンボランク";
             // 
             // numericUpDown42
             // 
@@ -2025,597 +2588,34 @@
             0,
             0});
             // 
-            // label89
-            // 
-            this.label89.AutoSize = true;
-            this.label89.Location = new System.Drawing.Point(182, 57);
-            this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(57, 12);
-            this.label89.TabIndex = 36;
-            this.label89.Text = "コンボランク";
-            // 
-            // label86
-            // 
-            this.label86.AutoSize = true;
-            this.label86.Location = new System.Drawing.Point(12, 56);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(29, 12);
-            this.label86.TabIndex = 29;
-            this.label86.Text = "曲数";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "S",
-            "A",
-            "B",
-            "C",
-            "なし"});
-            this.comboBox3.Location = new System.Drawing.Point(244, 27);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(70, 20);
-            this.comboBox3.TabIndex = 38;
-            // 
-            // label85
-            // 
-            this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(12, 31);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(41, 12);
-            this.label85.TabIndex = 28;
-            this.label85.Text = "難易度";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "S",
-            "A",
-            "B",
-            "C",
-            "なし"});
-            this.comboBox4.Location = new System.Drawing.Point(244, 53);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(70, 20);
-            this.comboBox4.TabIndex = 39;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "EXPERT",
-            "HARD",
-            "NORMAL",
-            "EASY"});
-            this.comboBox2.Location = new System.Drawing.Point(59, 27);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(70, 20);
-            this.comboBox2.TabIndex = 1;
-            // 
-            // label84
-            // 
-            this.label84.AutoSize = true;
-            this.label84.Location = new System.Drawing.Point(-2, 0);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(157, 12);
-            this.label84.TabIndex = 0;
-            this.label84.Text = "プレイスタイルを選択して下さい。";
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label87);
-            this.panel2.Controls.Add(this.checkBox5);
-            this.panel2.Controls.Add(this.checkBox6);
-            this.panel2.Location = new System.Drawing.Point(372, 20);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(134, 84);
-            this.panel2.TabIndex = 41;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(16, 55);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(94, 16);
-            this.checkBox6.TabIndex = 35;
-            this.checkBox6.Text = "獲得EXPアップ";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(16, 29);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(95, 16);
-            this.checkBox5.TabIndex = 34;
-            this.checkBox5.Text = "イベントptアップ";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // label87
-            // 
-            this.label87.AutoSize = true;
-            this.label87.Location = new System.Drawing.Point(-2, 0);
-            this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(131, 12);
-            this.label87.TabIndex = 31;
-            this.label87.Text = "アレンジを選択して下さい。";
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.label94);
-            this.panel3.Controls.Add(this.label93);
-            this.panel3.Controls.Add(this.label90);
-            this.panel3.Controls.Add(this.label92);
-            this.panel3.Controls.Add(this.label91);
-            this.panel3.Location = new System.Drawing.Point(17, 122);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(173, 62);
-            this.panel3.TabIndex = 44;
-            // 
-            // label91
-            // 
-            this.label91.AutoSize = true;
-            this.label91.Location = new System.Drawing.Point(12, 24);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(76, 12);
-            this.label91.TabIndex = 42;
-            this.label91.Text = "獲得イベントPt";
-            // 
-            // label92
-            // 
-            this.label92.AutoSize = true;
-            this.label92.Location = new System.Drawing.Point(12, 48);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(65, 12);
-            this.label92.TabIndex = 43;
-            this.label92.Text = "獲得経験値";
-            // 
-            // label90
-            // 
-            this.label90.AutoSize = true;
-            this.label90.Location = new System.Drawing.Point(-2, 0);
-            this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(136, 12);
-            this.label90.TabIndex = 40;
-            this.label90.Text = "1プレイで獲得できるポイント";
-            // 
-            // button33
-            // 
-            this.button33.Location = new System.Drawing.Point(541, 31);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(77, 62);
-            this.button33.TabIndex = 47;
-            this.button33.Text = "計算";
-            this.button33.UseVisualStyleBackColor = true;
-            this.button33.Click += new System.EventHandler(this.button33_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.label95);
-            this.panel4.Controls.Add(this.numericUpDown44);
-            this.panel4.Controls.Add(this.label96);
-            this.panel4.Controls.Add(this.numericUpDown43);
-            this.panel4.Location = new System.Drawing.Point(17, 202);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(173, 67);
-            this.panel4.TabIndex = 48;
-            // 
-            // numericUpDown43
-            // 
-            this.numericUpDown43.Location = new System.Drawing.Point(92, 22);
-            this.numericUpDown43.Maximum = new decimal(new int[] {
-            131070,
-            0,
-            0,
-            0});
-            this.numericUpDown43.Name = "numericUpDown43";
-            this.numericUpDown43.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown43.TabIndex = 32;
-            // 
-            // label96
-            // 
-            this.label96.AutoSize = true;
-            this.label96.Location = new System.Drawing.Point(12, 50);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(65, 12);
-            this.label96.TabIndex = 51;
-            this.label96.Text = "現在経験値";
-            // 
-            // numericUpDown44
-            // 
-            this.numericUpDown44.Location = new System.Drawing.Point(92, 47);
-            this.numericUpDown44.Maximum = new decimal(new int[] {
-            131070,
-            0,
-            0,
-            0});
-            this.numericUpDown44.Name = "numericUpDown44";
-            this.numericUpDown44.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown44.TabIndex = 56;
-            // 
-            // label95
-            // 
-            this.label95.AutoSize = true;
-            this.label95.Location = new System.Drawing.Point(12, 25);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(65, 12);
-            this.label95.TabIndex = 49;
-            this.label95.Text = "目標経験値";
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.label97);
-            this.panel5.Controls.Add(this.label98);
-            this.panel5.Controls.Add(this.numericUpDown45);
-            this.panel5.Controls.Add(this.numericUpDown46);
-            this.panel5.Controls.Add(this.checkBox8);
-            this.panel5.Location = new System.Drawing.Point(238, 202);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(206, 67);
-            this.panel5.TabIndex = 58;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(0, 0);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(148, 16);
-            this.checkBox8.TabIndex = 59;
-            this.checkBox8.Text = "イベントポイント計算をする";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // numericUpDown46
-            // 
-            this.numericUpDown46.Location = new System.Drawing.Point(128, 47);
-            this.numericUpDown46.Maximum = new decimal(new int[] {
-            2097150,
-            0,
-            0,
-            0});
-            this.numericUpDown46.Name = "numericUpDown46";
-            this.numericUpDown46.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown46.TabIndex = 54;
-            // 
-            // numericUpDown45
-            // 
-            this.numericUpDown45.Location = new System.Drawing.Point(128, 22);
-            this.numericUpDown45.Maximum = new decimal(new int[] {
-            2097150,
-            0,
-            0,
-            0});
-            this.numericUpDown45.Name = "numericUpDown45";
-            this.numericUpDown45.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown45.TabIndex = 56;
-            // 
-            // label98
-            // 
-            this.label98.AutoSize = true;
-            this.label98.Location = new System.Drawing.Point(12, 50);
-            this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(101, 12);
-            this.label98.TabIndex = 53;
-            this.label98.Text = "現在イベントポイント";
-            // 
-            // label97
-            // 
-            this.label97.AutoSize = true;
-            this.label97.Location = new System.Drawing.Point(12, 25);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(101, 12);
-            this.label97.TabIndex = 49;
-            this.label97.Text = "目標イベントポイント";
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.label99);
-            this.panel6.Controls.Add(this.label101);
-            this.panel6.Controls.Add(this.numericUpDown48);
-            this.panel6.Controls.Add(this.label100);
-            this.panel6.Controls.Add(this.numericUpDown47);
-            this.panel6.Location = new System.Drawing.Point(492, 202);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(174, 67);
-            this.panel6.TabIndex = 60;
-            // 
-            // numericUpDown47
-            // 
-            this.numericUpDown47.Location = new System.Drawing.Point(93, 22);
-            this.numericUpDown47.Maximum = new decimal(new int[] {
-            20000,
-            0,
-            0,
-            0});
-            this.numericUpDown47.Name = "numericUpDown47";
-            this.numericUpDown47.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown47.TabIndex = 57;
-            // 
-            // label100
-            // 
-            this.label100.AutoSize = true;
-            this.label100.Location = new System.Drawing.Point(12, 25);
-            this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(54, 12);
-            this.label100.TabIndex = 63;
-            this.label100.Text = "現在ランク";
-            // 
-            // numericUpDown48
-            // 
-            this.numericUpDown48.Location = new System.Drawing.Point(93, 47);
-            this.numericUpDown48.Maximum = new decimal(new int[] {
-            20000,
-            0,
-            0,
-            0});
-            this.numericUpDown48.Name = "numericUpDown48";
-            this.numericUpDown48.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown48.TabIndex = 61;
-            // 
-            // label101
-            // 
-            this.label101.AutoSize = true;
-            this.label101.Location = new System.Drawing.Point(12, 50);
-            this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(42, 12);
-            this.label101.TabIndex = 64;
-            this.label101.Text = "現在LP";
-            // 
-            // label99
-            // 
-            this.label99.AutoSize = true;
-            this.label99.Location = new System.Drawing.Point(3, 0);
-            this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(118, 12);
-            this.label99.TabIndex = 58;
-            this.label99.Text = "現状を入力して下さい。";
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(17, 202);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(126, 16);
-            this.checkBox7.TabIndex = 36;
-            this.checkBox7.Text = "ランクアップ計算をする";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.label110);
-            this.panel7.Controls.Add(this.label103);
-            this.panel7.Controls.Add(this.label104);
-            this.panel7.Controls.Add(this.label109);
-            this.panel7.Controls.Add(this.label102);
-            this.panel7.Controls.Add(this.label108);
-            this.panel7.Controls.Add(this.label105);
-            this.panel7.Controls.Add(this.label107);
-            this.panel7.Controls.Add(this.label106);
-            this.panel7.Location = new System.Drawing.Point(17, 287);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(173, 140);
-            this.panel7.TabIndex = 68;
-            // 
-            // label106
-            // 
-            this.label106.Location = new System.Drawing.Point(92, 47);
-            this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(69, 12);
-            this.label106.TabIndex = 65;
-            this.label106.Text = "0LP";
-            this.label106.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label107
-            // 
-            this.label107.AutoSize = true;
-            this.label107.Location = new System.Drawing.Point(22, 70);
-            this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(53, 12);
-            this.label107.TabIndex = 69;
-            this.label107.Text = "回復時間";
-            // 
-            // label105
-            // 
-            this.label105.AutoSize = true;
-            this.label105.Location = new System.Drawing.Point(22, 47);
-            this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(42, 12);
-            this.label105.TabIndex = 67;
-            this.label105.Text = "必要LP";
-            // 
-            // label108
-            // 
-            this.label108.Location = new System.Drawing.Point(92, 70);
-            this.label108.Name = "label108";
-            this.label108.Size = new System.Drawing.Size(69, 12);
-            this.label108.TabIndex = 70;
-            this.label108.Text = "0分";
-            this.label108.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label102
-            // 
-            this.label102.AutoSize = true;
-            this.label102.Location = new System.Drawing.Point(-2, 0);
-            this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(93, 12);
-            this.label102.TabIndex = 66;
-            this.label102.Text = "ランクアップするまで";
-            // 
-            // label109
-            // 
-            this.label109.Location = new System.Drawing.Point(92, 93);
-            this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(69, 12);
-            this.label109.TabIndex = 92;
-            this.label109.Text = "0.0時間";
-            this.label109.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label104
-            // 
-            this.label104.Location = new System.Drawing.Point(92, 24);
-            this.label104.Name = "label104";
-            this.label104.Size = new System.Drawing.Size(69, 12);
-            this.label104.TabIndex = 94;
-            this.label104.Text = "0回";
-            this.label104.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label103
-            // 
-            this.label103.AutoSize = true;
-            this.label103.Location = new System.Drawing.Point(22, 24);
-            this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(56, 12);
-            this.label103.TabIndex = 95;
-            this.label103.Text = "プレイ回数";
-            // 
-            // label110
-            // 
-            this.label110.Location = new System.Drawing.Point(24, 116);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(137, 12);
-            this.label110.TabIndex = 93;
-            this.label110.Text = "年  月  日  時  分頃";
-            this.label110.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.label119);
-            this.panel8.Controls.Add(this.label118);
-            this.panel8.Controls.Add(this.label117);
-            this.panel8.Controls.Add(this.label115);
-            this.panel8.Controls.Add(this.label113);
-            this.panel8.Controls.Add(this.label112);
-            this.panel8.Controls.Add(this.label111);
-            this.panel8.Controls.Add(this.label114);
-            this.panel8.Controls.Add(this.label116);
-            this.panel8.Location = new System.Drawing.Point(238, 287);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(206, 140);
-            this.panel8.TabIndex = 96;
-            // 
-            // label116
-            // 
-            this.label116.AutoSize = true;
-            this.label116.Location = new System.Drawing.Point(22, 70);
-            this.label116.Name = "label116";
-            this.label116.Size = new System.Drawing.Size(53, 12);
-            this.label116.TabIndex = 69;
-            this.label116.Text = "回復時間";
-            // 
-            // label114
-            // 
-            this.label114.AutoSize = true;
-            this.label114.Location = new System.Drawing.Point(22, 47);
-            this.label114.Name = "label114";
-            this.label114.Size = new System.Drawing.Size(42, 12);
-            this.label114.TabIndex = 67;
-            this.label114.Text = "必要LP";
-            // 
-            // label111
-            // 
-            this.label111.AutoSize = true;
-            this.label111.Location = new System.Drawing.Point(-2, 0);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(84, 12);
-            this.label111.TabIndex = 66;
-            this.label111.Text = "目標ポイントまで";
-            // 
-            // label112
-            // 
-            this.label112.AutoSize = true;
-            this.label112.Location = new System.Drawing.Point(22, 24);
-            this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(56, 12);
-            this.label112.TabIndex = 95;
-            this.label112.Text = "プレイ回数";
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.panel8);
-            this.tabPage4.Controls.Add(this.panel7);
-            this.tabPage4.Controls.Add(this.checkBox7);
-            this.tabPage4.Controls.Add(this.panel6);
-            this.tabPage4.Controls.Add(this.panel5);
-            this.tabPage4.Controls.Add(this.panel4);
-            this.tabPage4.Controls.Add(this.button33);
-            this.tabPage4.Controls.Add(this.panel3);
-            this.tabPage4.Controls.Add(this.panel2);
-            this.tabPage4.Controls.Add(this.panel1);
-            this.tabPage4.Controls.Add(this.button32);
-            this.tabPage4.Controls.Add(this.button31);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(767, 526);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "メドレーフェスティバル";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // label113
-            // 
-            this.label113.Location = new System.Drawing.Point(126, 24);
-            this.label113.Name = "label113";
-            this.label113.Size = new System.Drawing.Size(71, 12);
-            this.label113.TabIndex = 96;
-            this.label113.Text = "0回";
-            this.label113.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label93
-            // 
-            this.label93.Location = new System.Drawing.Point(94, 24);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(69, 12);
-            this.label93.TabIndex = 96;
-            this.label93.Text = "0回";
-            this.label93.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label94
-            // 
-            this.label94.Location = new System.Drawing.Point(94, 48);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(69, 12);
-            this.label94.TabIndex = 97;
-            this.label94.Text = "0Exp";
-            this.label94.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label115
-            // 
-            this.label115.Location = new System.Drawing.Point(126, 47);
-            this.label115.Name = "label115";
-            this.label115.Size = new System.Drawing.Size(71, 12);
-            this.label115.TabIndex = 97;
-            this.label115.Text = "0LP";
-            this.label115.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label117
-            // 
-            this.label117.Location = new System.Drawing.Point(126, 70);
-            this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(71, 12);
-            this.label117.TabIndex = 98;
-            this.label117.Text = "0分";
-            this.label117.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label118
-            // 
-            this.label118.Location = new System.Drawing.Point(126, 93);
-            this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(71, 12);
-            this.label118.TabIndex = 99;
-            this.label118.Text = "0.0時間";
-            this.label118.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label119
-            // 
-            this.label119.Location = new System.Drawing.Point(24, 116);
-            this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(173, 12);
-            this.label119.TabIndex = 100;
-            this.label119.Text = "年  月  日  時  分頃";
-            this.label119.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Location = new System.Drawing.Point(182, 31);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(56, 12);
+            this.label88.TabIndex = 33;
+            this.label88.Text = "スコアランク";
+            // 
+            // button32
+            // 
+            this.button32.Location = new System.Drawing.Point(645, 433);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(75, 23);
+            this.button32.TabIndex = 27;
+            this.button32.Text = "終了";
+            this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
+            // 
+            // button31
+            // 
+            this.button31.Location = new System.Drawing.Point(645, 404);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(75, 23);
+            this.button31.TabIndex = 26;
+            this.button31.Text = "保存";
+            this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // Form1
             // 
@@ -2674,31 +2674,31 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown48)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown47)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown45)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown46)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown44)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown43)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown42)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown44)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown46)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown45)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown48)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
             this.ResumeLayout(false);
 
         }

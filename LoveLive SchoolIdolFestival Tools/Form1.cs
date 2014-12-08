@@ -530,6 +530,10 @@ namespace ノート重要度計算機
                                         {72, 150, 234},
                                         {31, 64, 99}};
             int[] playLP = new int[] { 20, 12, 8, 4 };
+            int maxEXP, nowEXP, needEXP;
+            int maxEventPt, nowEventPt, needEventPt;
+            int nowLP, needLP;
+            DateTime dt1 = DateTime.Now, dt2;
 
             trac = (int)numericUpDown42.Value;
 
@@ -610,10 +614,7 @@ namespace ノート重要度計算機
 //ランクアップ計算
             if (checkBox7.Checked == true)
             {
-                int maxEXP, nowEXP, needEXP;
-                int nowLP, needLP;
                 int i = 0;
-                DateTime dt1 = DateTime.Now, dt2;
 
                 maxEXP = (int)numericUpDown43.Value;
                 nowEXP = (int)numericUpDown44.Value;
@@ -638,8 +639,36 @@ namespace ノート重要度計算機
                 label110.Text = dt2.Year + "年" + dt2.Month + "月" + dt2.Day + "日" + dt2.Hour + "時" + dt2.Minute + "分頃";
             }
 
-        }
+//イベントポイント計算
+            if (checkBox8.Checked == true)
+            {
+                int i = 0;
 
+                maxEventPt = (int)numericUpDown45.Value;
+                nowEventPt = (int)numericUpDown46.Value;
+                needEventPt = maxEventPt - nowEventPt;
+                nowLP = (int)numericUpDown48.Value;
+
+                while (needEventPt > 0)
+                {
+                    needEventPt -= (int)Math.Round(EventPt, MidpointRounding.AwayFromZero);
+                    ++i;
+                }
+
+                needLP = i * playLP[difficulty] * trac;
+
+                label113.Text = i.ToString() + "回";
+                label115.Text = needLP.ToString() + "LP";
+                label117.Text = ((needLP - nowLP) * 6).ToString() + "分";
+                label118.Text = (((float)needLP - nowLP) * 6 / 60).ToString() + "時間";
+
+                TimeSpan ts1 = new TimeSpan(0, 0, ((needLP - nowLP) * 6), 0);
+                dt2 = dt1 + ts1;
+                label119.Text = dt2.Year + "年" + dt2.Month + "月" + dt2.Day + "日" + dt2.Hour + "時" + dt2.Minute + "分頃";
+            }
+
+
+        }
 //終了ボタン
         private void button32_Click(object sender, EventArgs e)
         {
