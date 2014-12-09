@@ -666,9 +666,8 @@ namespace ノート重要度計算機
                 dt2 = dt1 + ts1;
                 label119.Text = dt2.Year + "年" + dt2.Month + "月" + dt2.Day + "日" + dt2.Hour + "時" + dt2.Minute + "分頃";
             }
-
-
         }
+
 //終了ボタン
         private void button32_Click(object sender, EventArgs e)
         {
@@ -680,7 +679,7 @@ namespace ノート重要度計算機
         {
             saveFileDialog1.Filter = "テキスト ファイル|*.txt";
             saveFileDialog1.Title = "結果を保存";
-            saveFileDialog1.FileName = "Rankup.txt";
+            saveFileDialog1.FileName = "MedleyFestival.txt";
 
             if (saveFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
@@ -688,34 +687,39 @@ namespace ノート重要度計算機
                 System.IO.StreamWriter sw = new
                     System.IO.StreamWriter(saveFileDialog1.FileName, false, System.Text.Encoding.GetEncoding("shift_jis"));
                 sw.Write("プレイスタイル\n");
-                sw.Write("難易度:" + comboBox2.Text + "\n");
-                sw.Write("曲数:" + numericUpDown42.Value.ToString() + "\n");
-                sw.Write("スコアランク:" + comboBox3.Text + "\n");
-                sw.Write("コンボランク:" + comboBox4.Text + "\n\n");
+                sw.Write("難易度:" + comboBox2.Text + "\r\n");
+                sw.Write("曲数:" + numericUpDown42.Value.ToString() + "\r\n");
+                sw.Write("スコアランク:" + comboBox3.Text + "\r\n");
+                sw.Write("コンボランク:" + comboBox4.Text + "\r\n\r\n");
 
-                sw.Write("1プレイで獲得できるポイントは･･･\n");
-                sw.Write("獲得イベントポイント:");
-                sw.Write("獲得経験値:");
+                sw.Write("1プレイで獲得できるポイントは\r\n");
+                sw.Write("獲得イベントポイント:" + label93.Text + "\r\n");
+                sw.Write("獲得経験値:" + label94.Text + "\r\n");
 
-                sw.Write("現在" + numericUpDown3.Value.ToString() + "LPあり、");
-                sw.Write("現在の" + numericUpDown2.Value.ToString() + "EXPから" + numericUpDown1.Value.ToString());
-                sw.Write("EXPまで貯めるためには･･･\r\n\r\n");
-                for (i = 0; i < 3; i++)
+                if (checkBox7.Checked == true)
                 {
-                    if (i == 0) sw.Write("NORMALのみ:");
-                    if (i == 1) sw.Write("HARDのみ:");
-                    if (i == 2) sw.Write("EXPERTのみ:");
-                    sw.Write(Labeltab2(i * 4 + 36).Text);
-                    sw.Write("\r\n必要LP:\t" + Labeltab2(i * 4 + 37).Text);
-                    sw.Write("\r\nLP回復時間:\t" + Labeltab2(i * 4 + 38).Text + "\r\n\t\t" + Labeltab2(i * 4 + 39).Text + "\r\n\r\n");
+                    sw.Write("\r\n現在の" + numericUpDown43.Value.ToString() + "EXPから");
+                    sw.Write(numericUpDown44.Value.ToString() + "EXPまで貯めるには\r\n");
+                    sw.Write("プレイ回数:" + label104.Text);
+                    sw.Write("\r\n必要LP" + label106.Text);
+                    sw.Write("\r\n回復時間:" + label108.Text);
+                    sw.Write("\r\n" + label109.Text);
+                    sw.Write("\r\n目安は" + label110.Text + "です。\r\n");
                 }
-                sw.Write("最低限のLPでランクアップするには\r\nEASY:\t" + label52.Text + "\r\nNORMA\t" + label53.Text + "\r\nEXPERT\t" + label54.Text +
-                    "\r\n必要LP:" + label57.Text + "\r\nLP回復時間:\t" + label58.Text + "\r\n\t\t" + label59.Text +
-                    "\r\n\r\n※NORMAL及びHARDでは、「夏色えがおで1,2,Jump!」以降の曲をプレイした場合での計算です。\r\n");
+
+                if (checkBox8.Checked == true)
+                {
+                    sw.Write("\r\n現在の" + numericUpDown45.Value.ToString() + "ポイントから");
+                    sw.Write(numericUpDown46.Value.ToString() + "ポイントまで貯めるには\r\n");
+                    sw.Write("プレイ回数:" + label104.Text);
+                    sw.Write("\r\n必要LP" + label106.Text);
+                    sw.Write("\r\n回復時間:" + label108.Text);
+                    sw.Write("\r\n" + label109.Text);
+                    sw.Write("\r\n目安は" + label110.Text + "です。\r\n");
+                }
 
                 sw.Close();
             }
-
         }
 
 
