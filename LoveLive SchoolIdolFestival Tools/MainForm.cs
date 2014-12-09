@@ -678,6 +678,43 @@ namespace ノート重要度計算機
         //保存ボタン
         private void button31_Click(object sender, EventArgs e)
         {
+            saveFileDialog1.Filter = "テキスト ファイル|*.txt";
+            saveFileDialog1.Title = "結果を保存";
+            saveFileDialog1.FileName = "Rankup.txt";
+
+            if (saveFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                int i;
+                System.IO.StreamWriter sw = new
+                    System.IO.StreamWriter(saveFileDialog1.FileName, false, System.Text.Encoding.GetEncoding("shift_jis"));
+                sw.Write("プレイスタイル\n");
+                sw.Write("難易度:" + comboBox2.Text + "\n");
+                sw.Write("曲数:" + numericUpDown42.Value.ToString() + "\n");
+                sw.Write("スコアランク:" + comboBox3.Text + "\n");
+                sw.Write("コンボランク:" + comboBox4.Text + "\n\n");
+
+                sw.Write("1プレイで獲得できるポイントは･･･\n");
+                sw.Write("獲得イベントポイント:");
+                sw.Write("獲得経験値:");
+
+                sw.Write("現在" + numericUpDown3.Value.ToString() + "LPあり、");
+                sw.Write("現在の" + numericUpDown2.Value.ToString() + "EXPから" + numericUpDown1.Value.ToString());
+                sw.Write("EXPまで貯めるためには･･･\r\n\r\n");
+                for (i = 0; i < 3; i++)
+                {
+                    if (i == 0) sw.Write("NORMALのみ:");
+                    if (i == 1) sw.Write("HARDのみ:");
+                    if (i == 2) sw.Write("EXPERTのみ:");
+                    sw.Write(Labeltab2(i * 4 + 36).Text);
+                    sw.Write("\r\n必要LP:\t" + Labeltab2(i * 4 + 37).Text);
+                    sw.Write("\r\nLP回復時間:\t" + Labeltab2(i * 4 + 38).Text + "\r\n\t\t" + Labeltab2(i * 4 + 39).Text + "\r\n\r\n");
+                }
+                sw.Write("最低限のLPでランクアップするには\r\nEASY:\t" + label52.Text + "\r\nNORMA\t" + label53.Text + "\r\nEXPERT\t" + label54.Text +
+                    "\r\n必要LP:" + label57.Text + "\r\nLP回復時間:\t" + label58.Text + "\r\n\t\t" + label59.Text +
+                    "\r\n\r\n※NORMAL及びHARDでは、「夏色えがおで1,2,Jump!」以降の曲をプレイした場合での計算です。\r\n");
+
+                sw.Close();
+            }
 
         }
 
