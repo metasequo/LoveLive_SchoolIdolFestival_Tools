@@ -327,7 +327,7 @@
             this.button1.Location = new System.Drawing.Point(645, 31);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
+            this.button1.TabIndex = 2;
             this.button1.Text = "ファイル選択";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -341,7 +341,7 @@
             this.button2.Location = new System.Drawing.Point(645, 433);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 22;
+            this.button2.TabIndex = 44;
             this.button2.Text = "終了";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -352,7 +352,7 @@
             this.label1.Location = new System.Drawing.Point(30, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(155, 12);
-            this.label1.TabIndex = 2;
+            this.label1.TabIndex = 0;
             this.label1.Text = "譜面ファイルを選択してください。";
             // 
             // textBox1
@@ -360,7 +360,7 @@
             this.textBox1.Location = new System.Drawing.Point(30, 31);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(604, 19);
-            this.textBox1.TabIndex = 0;
+            this.textBox1.TabIndex = 1;
             // 
             // label2
             // 
@@ -368,7 +368,7 @@
             this.label2.Location = new System.Drawing.Point(103, 99);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(11, 12);
-            this.label2.TabIndex = 4;
+            this.label2.TabIndex = 6;
             this.label2.Text = "1";
             // 
             // label11
@@ -377,7 +377,7 @@
             this.label11.Location = new System.Drawing.Point(28, 123);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(38, 12);
-            this.label11.TabIndex = 13;
+            this.label11.TabIndex = 3;
             this.label11.Text = "単押し";
             // 
             // label12
@@ -386,7 +386,7 @@
             this.label12.Location = new System.Drawing.Point(28, 159);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(38, 12);
-            this.label12.TabIndex = 14;
+            this.label12.TabIndex = 4;
             this.label12.Text = "長押し";
             // 
             // button3
@@ -394,7 +394,7 @@
             this.button3.Location = new System.Drawing.Point(660, 123);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(60, 47);
-            this.button3.TabIndex = 20;
+            this.button3.TabIndex = 42;
             this.button3.Text = "計算";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -405,7 +405,7 @@
             this.label13.Location = new System.Drawing.Point(28, 193);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(41, 12);
-            this.label13.TabIndex = 34;
+            this.label13.TabIndex = 5;
             this.label13.Text = "重要度";
             // 
             // label3
@@ -414,7 +414,7 @@
             this.label3.Location = new System.Drawing.Point(166, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(11, 12);
-            this.label3.TabIndex = 35;
+            this.label3.TabIndex = 10;
             this.label3.Text = "2";
             // 
             // label4
@@ -423,7 +423,7 @@
             this.label4.Location = new System.Drawing.Point(229, 99);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(11, 12);
-            this.label4.TabIndex = 37;
+            this.label4.TabIndex = 14;
             this.label4.Text = "3";
             // 
             // label5
@@ -432,7 +432,7 @@
             this.label5.Location = new System.Drawing.Point(292, 99);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(11, 12);
-            this.label5.TabIndex = 39;
+            this.label5.TabIndex = 18;
             this.label5.Text = "4";
             // 
             // label6
@@ -441,7 +441,7 @@
             this.label6.Location = new System.Drawing.Point(355, 99);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(11, 12);
-            this.label6.TabIndex = 41;
+            this.label6.TabIndex = 22;
             this.label6.Text = "5";
             // 
             // label7
@@ -450,7 +450,7 @@
             this.label7.Location = new System.Drawing.Point(418, 99);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(11, 12);
-            this.label7.TabIndex = 43;
+            this.label7.TabIndex = 26;
             this.label7.Text = "6";
             // 
             // label8
@@ -459,7 +459,7 @@
             this.label8.Location = new System.Drawing.Point(481, 99);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(11, 12);
-            this.label8.TabIndex = 45;
+            this.label8.TabIndex = 30;
             this.label8.Text = "7";
             // 
             // label9
@@ -468,7 +468,7 @@
             this.label9.Location = new System.Drawing.Point(544, 99);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(11, 12);
-            this.label9.TabIndex = 47;
+            this.label9.TabIndex = 34;
             this.label9.Text = "8";
             // 
             // label10
@@ -477,7 +477,7 @@
             this.label10.Location = new System.Drawing.Point(607, 99);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(11, 12);
-            this.label10.TabIndex = 49;
+            this.label10.TabIndex = 38;
             this.label10.Text = "9";
             // 
             // label14
@@ -486,7 +486,7 @@
             this.label14.Location = new System.Drawing.Point(95, 192);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(19, 12);
-            this.label14.TabIndex = 3;
+            this.label14.TabIndex = 9;
             this.label14.Text = "0.0";
             // 
             // label15
@@ -495,7 +495,7 @@
             this.label15.Location = new System.Drawing.Point(158, 192);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(19, 12);
-            this.label15.TabIndex = 5;
+            this.label15.TabIndex = 13;
             this.label15.Text = "0.0";
             // 
             // label16
@@ -504,7 +504,7 @@
             this.label16.Location = new System.Drawing.Point(221, 192);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(19, 12);
-            this.label16.TabIndex = 7;
+            this.label16.TabIndex = 17;
             this.label16.Text = "0.0";
             // 
             // label17
@@ -513,7 +513,7 @@
             this.label17.Location = new System.Drawing.Point(284, 193);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(19, 12);
-            this.label17.TabIndex = 9;
+            this.label17.TabIndex = 21;
             this.label17.Text = "0.0";
             // 
             // label18
@@ -522,7 +522,7 @@
             this.label18.Location = new System.Drawing.Point(347, 192);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(19, 12);
-            this.label18.TabIndex = 11;
+            this.label18.TabIndex = 25;
             this.label18.Text = "0.0";
             // 
             // label19
@@ -531,7 +531,7 @@
             this.label19.Location = new System.Drawing.Point(410, 192);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(19, 12);
-            this.label19.TabIndex = 13;
+            this.label19.TabIndex = 29;
             this.label19.Text = "0.0";
             // 
             // label20
@@ -540,7 +540,7 @@
             this.label20.Location = new System.Drawing.Point(473, 193);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(19, 12);
-            this.label20.TabIndex = 15;
+            this.label20.TabIndex = 33;
             this.label20.Text = "0.0";
             // 
             // label21
@@ -549,7 +549,7 @@
             this.label21.Location = new System.Drawing.Point(536, 192);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(19, 12);
-            this.label21.TabIndex = 17;
+            this.label21.TabIndex = 37;
             this.label21.Text = "0.0";
             // 
             // label22
@@ -558,7 +558,7 @@
             this.label22.Location = new System.Drawing.Point(599, 192);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(19, 12);
-            this.label22.TabIndex = 19;
+            this.label22.TabIndex = 41;
             this.label22.Text = "0.0";
             // 
             // button4
@@ -566,7 +566,7 @@
             this.button4.Location = new System.Drawing.Point(131, 229);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(45, 45);
-            this.button4.TabIndex = 69;
+            this.button4.TabIndex = 45;
             this.button4.Text = "2";
             this.button4.UseVisualStyleBackColor = true;
             // 
@@ -575,7 +575,7 @@
             this.button5.Location = new System.Drawing.Point(167, 280);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(45, 45);
-            this.button5.TabIndex = 70;
+            this.button5.TabIndex = 46;
             this.button5.Text = "3";
             this.button5.UseVisualStyleBackColor = true;
             // 
@@ -584,7 +584,7 @@
             this.button6.Location = new System.Drawing.Point(212, 335);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(45, 45);
-            this.button6.TabIndex = 72;
+            this.button6.TabIndex = 47;
             this.button6.Text = "4";
             this.button6.UseVisualStyleBackColor = true;
             // 
@@ -593,7 +593,7 @@
             this.button7.Location = new System.Drawing.Point(275, 366);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(45, 45);
-            this.button7.TabIndex = 71;
+            this.button7.TabIndex = 48;
             this.button7.Text = "5";
             this.button7.UseVisualStyleBackColor = true;
             // 
@@ -602,7 +602,7 @@
             this.button8.Location = new System.Drawing.Point(337, 393);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(45, 45);
-            this.button8.TabIndex = 73;
+            this.button8.TabIndex = 49;
             this.button8.Text = "1";
             this.button8.UseVisualStyleBackColor = true;
             // 
@@ -611,7 +611,7 @@
             this.button9.Location = new System.Drawing.Point(400, 366);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(45, 45);
-            this.button9.TabIndex = 74;
+            this.button9.TabIndex = 50;
             this.button9.Text = "6";
             this.button9.UseVisualStyleBackColor = true;
             // 
@@ -620,7 +620,7 @@
             this.button10.Location = new System.Drawing.Point(463, 335);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(45, 45);
-            this.button10.TabIndex = 75;
+            this.button10.TabIndex = 51;
             this.button10.Text = "7";
             this.button10.UseVisualStyleBackColor = true;
             // 
@@ -629,7 +629,7 @@
             this.button11.Location = new System.Drawing.Point(510, 280);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(45, 45);
-            this.button11.TabIndex = 76;
+            this.button11.TabIndex = 52;
             this.button11.Text = "8";
             this.button11.UseVisualStyleBackColor = true;
             // 
@@ -638,7 +638,7 @@
             this.button12.Location = new System.Drawing.Point(546, 229);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(45, 45);
-            this.button12.TabIndex = 77;
+            this.button12.TabIndex = 53;
             this.button12.Text = "9";
             this.button12.UseVisualStyleBackColor = true;
             // 
@@ -647,7 +647,7 @@
             this.button13.Location = new System.Drawing.Point(645, 404);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 21;
+            this.button13.TabIndex = 43;
             this.button13.Text = "保存";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
@@ -665,7 +665,7 @@
             this.tabControl1.Location = new System.Drawing.Point(5, 5);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(775, 552);
+            this.tabControl1.Size = new System.Drawing.Size(775, 495);
             this.tabControl1.TabIndex = 0;
             this.tabControl1.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
             // 
@@ -724,7 +724,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(767, 526);
+            this.tabPage2.Size = new System.Drawing.Size(767, 469);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ランクアップ計算機";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -734,16 +734,16 @@
             this.label51.Location = new System.Drawing.Point(574, 384);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(125, 12);
-            this.label51.TabIndex = 91;
+            this.label51.TabIndex = 44;
             this.label51.Text = "    年  月  日  時  分頃";
             this.label51.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label50
             // 
-            this.label50.Location = new System.Drawing.Point(488, 400);
+            this.label50.Location = new System.Drawing.Point(465, 400);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(31, 12);
-            this.label50.TabIndex = 90;
+            this.label50.Size = new System.Drawing.Size(55, 12);
+            this.label50.TabIndex = 46;
             this.label50.Text = "  0個";
             this.label50.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -753,7 +753,7 @@
             this.label49.Location = new System.Drawing.Point(351, 400);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(102, 12);
-            this.label49.TabIndex = 89;
+            this.label49.TabIndex = 45;
             this.label49.Text = "消費イベントアイテム";
             // 
             // checkBox4
@@ -762,7 +762,7 @@
             this.checkBox4.Location = new System.Drawing.Point(33, 179);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(97, 16);
-            this.checkBox4.TabIndex = 3;
+            this.checkBox4.TabIndex = 7;
             this.checkBox4.Text = "イベントアイテム";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
@@ -776,7 +776,7 @@
             0});
             this.numericUpDown41.Name = "numericUpDown41";
             this.numericUpDown41.Size = new System.Drawing.Size(75, 19);
-            this.numericUpDown41.TabIndex = 4;
+            this.numericUpDown41.TabIndex = 8;
             // 
             // checkBox3
             // 
@@ -784,7 +784,7 @@
             this.checkBox3.Location = new System.Drawing.Point(56, 399);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(67, 16);
-            this.checkBox3.TabIndex = 7;
+            this.checkBox3.TabIndex = 37;
             this.checkBox3.Text = "EXPERT";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
@@ -794,7 +794,7 @@
             this.checkBox2.Location = new System.Drawing.Point(56, 359);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(56, 16);
-            this.checkBox2.TabIndex = 6;
+            this.checkBox2.TabIndex = 35;
             this.checkBox2.Text = "HARD";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
@@ -804,7 +804,7 @@
             this.checkBox1.Location = new System.Drawing.Point(56, 318);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(71, 16);
-            this.checkBox1.TabIndex = 5;
+            this.checkBox1.TabIndex = 33;
             this.checkBox1.Text = "NORMAL";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
@@ -814,7 +814,7 @@
             this.label83.Location = new System.Drawing.Point(54, 288);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(205, 12);
-            this.label83.TabIndex = 82;
+            this.label83.TabIndex = 32;
             this.label83.Text = "プレイする難易度にチェックをつけてください。";
             // 
             // label80
@@ -824,7 +824,7 @@
             this.label80.Location = new System.Drawing.Point(54, 438);
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(464, 12);
-            this.label80.TabIndex = 81;
+            this.label80.TabIndex = 47;
             this.label80.Text = "※NORMAL及びHARDでは、「夏色えがおで1,2,Jump!」以降の曲をプレイした場合での計算です。";
             // 
             // button25
@@ -832,7 +832,7 @@
             this.button25.Location = new System.Drawing.Point(645, 433);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(75, 23);
-            this.button25.TabIndex = 10;
+            this.button25.TabIndex = 49;
             this.button25.Text = "終了";
             this.button25.UseVisualStyleBackColor = true;
             this.button25.Click += new System.EventHandler(this.button25_Click);
@@ -842,7 +842,7 @@
             this.button24.Location = new System.Drawing.Point(645, 404);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(75, 23);
-            this.button24.TabIndex = 9;
+            this.button24.TabIndex = 48;
             this.button24.Text = "保存";
             this.button24.UseVisualStyleBackColor = true;
             this.button24.Click += new System.EventHandler(this.button24_Click);
@@ -858,19 +858,19 @@
             // 
             // label58
             // 
-            this.label58.Location = new System.Drawing.Point(489, 360);
+            this.label58.Location = new System.Drawing.Point(465, 360);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(31, 12);
+            this.label58.Size = new System.Drawing.Size(55, 12);
             this.label58.TabIndex = 42;
             this.label58.Text = "  0分";
             this.label58.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label57
             // 
-            this.label57.Location = new System.Drawing.Point(488, 319);
+            this.label57.Location = new System.Drawing.Point(465, 319);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(32, 12);
-            this.label57.TabIndex = 41;
+            this.label57.Size = new System.Drawing.Size(55, 12);
+            this.label57.TabIndex = 40;
             this.label57.Text = "  0LP";
             this.label57.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -880,7 +880,7 @@
             this.label56.Location = new System.Drawing.Point(351, 360);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(53, 12);
-            this.label56.TabIndex = 40;
+            this.label56.TabIndex = 41;
             this.label56.Text = "回復時間";
             // 
             // label55
@@ -894,28 +894,28 @@
             // 
             // label54
             // 
-            this.label54.Location = new System.Drawing.Point(136, 400);
+            this.label54.Location = new System.Drawing.Point(120, 400);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(27, 12);
+            this.label54.Size = new System.Drawing.Size(43, 12);
             this.label54.TabIndex = 38;
             this.label54.Text = " 0回";
             this.label54.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label53
             // 
-            this.label53.Location = new System.Drawing.Point(136, 360);
+            this.label53.Location = new System.Drawing.Point(118, 360);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(27, 12);
-            this.label53.TabIndex = 37;
+            this.label53.Size = new System.Drawing.Size(45, 12);
+            this.label53.TabIndex = 36;
             this.label53.Text = " 0回";
             this.label53.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label52
             // 
-            this.label52.Location = new System.Drawing.Point(136, 320);
+            this.label52.Location = new System.Drawing.Point(120, 320);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(27, 12);
-            this.label52.TabIndex = 36;
+            this.label52.Size = new System.Drawing.Size(43, 12);
+            this.label52.TabIndex = 34;
             this.label52.Text = " 0回";
             this.label52.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -925,7 +925,7 @@
             this.label48.Location = new System.Drawing.Point(31, 263);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(204, 12);
-            this.label48.TabIndex = 32;
+            this.label48.TabIndex = 31;
             this.label48.Text = "最小限のLP消費でランクアップするには・・・";
             // 
             // label47
@@ -933,25 +933,25 @@
             this.label47.Location = new System.Drawing.Point(655, 220);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(47, 12);
-            this.label47.TabIndex = 31;
+            this.label47.TabIndex = 30;
             this.label47.Text = " 0.0時間";
             this.label47.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label46
             // 
-            this.label46.Location = new System.Drawing.Point(570, 220);
+            this.label46.Location = new System.Drawing.Point(588, 220);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(35, 12);
-            this.label46.TabIndex = 30;
+            this.label46.TabIndex = 29;
             this.label46.Text = "   0分";
             this.label46.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label45
             // 
-            this.label45.Location = new System.Drawing.Point(488, 220);
+            this.label45.Location = new System.Drawing.Point(475, 220);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(32, 12);
-            this.label45.TabIndex = 29;
+            this.label45.Size = new System.Drawing.Size(55, 12);
+            this.label45.TabIndex = 28;
             this.label45.Text = "  0LP";
             this.label45.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -960,7 +960,7 @@
             this.label44.Location = new System.Drawing.Point(351, 220);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(87, 12);
-            this.label44.TabIndex = 28;
+            this.label44.TabIndex = 27;
             this.label44.Text = " 0回でランクアップ";
             this.label44.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -970,7 +970,7 @@
             this.label35.Location = new System.Drawing.Point(570, 180);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(53, 12);
-            this.label35.TabIndex = 27;
+            this.label35.TabIndex = 26;
             this.label35.Text = "回復時間";
             // 
             // label34
@@ -979,7 +979,7 @@
             this.label34.Location = new System.Drawing.Point(488, 180);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(42, 12);
-            this.label34.TabIndex = 26;
+            this.label34.TabIndex = 25;
             this.label34.Text = "必要LP";
             // 
             // label33
@@ -988,7 +988,7 @@
             this.label33.Location = new System.Drawing.Point(351, 180);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(69, 12);
-            this.label33.TabIndex = 25;
+            this.label33.TabIndex = 24;
             this.label33.Text = "EXPERTのみ";
             // 
             // label43
@@ -996,25 +996,25 @@
             this.label43.Location = new System.Drawing.Point(655, 140);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(47, 12);
-            this.label43.TabIndex = 24;
+            this.label43.TabIndex = 23;
             this.label43.Text = " 0.0時間";
             this.label43.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label42
             // 
-            this.label42.Location = new System.Drawing.Point(570, 140);
+            this.label42.Location = new System.Drawing.Point(588, 140);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(35, 12);
-            this.label42.TabIndex = 23;
+            this.label42.TabIndex = 22;
             this.label42.Text = "   0分";
             this.label42.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label41
             // 
-            this.label41.Location = new System.Drawing.Point(488, 140);
+            this.label41.Location = new System.Drawing.Point(475, 140);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(32, 12);
-            this.label41.TabIndex = 22;
+            this.label41.Size = new System.Drawing.Size(55, 12);
+            this.label41.TabIndex = 21;
             this.label41.Text = "  0LP";
             this.label41.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -1023,7 +1023,7 @@
             this.label40.Location = new System.Drawing.Point(351, 140);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(87, 12);
-            this.label40.TabIndex = 21;
+            this.label40.TabIndex = 20;
             this.label40.Text = " 0回でランクアップ";
             this.label40.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -1033,7 +1033,7 @@
             this.label32.Location = new System.Drawing.Point(570, 100);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(53, 12);
-            this.label32.TabIndex = 20;
+            this.label32.TabIndex = 19;
             this.label32.Text = "回復時間";
             // 
             // label31
@@ -1042,7 +1042,7 @@
             this.label31.Location = new System.Drawing.Point(488, 100);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(42, 12);
-            this.label31.TabIndex = 19;
+            this.label31.TabIndex = 18;
             this.label31.Text = "必要LP";
             // 
             // label30
@@ -1051,7 +1051,7 @@
             this.label30.Location = new System.Drawing.Point(351, 100);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(58, 12);
-            this.label30.TabIndex = 18;
+            this.label30.TabIndex = 17;
             this.label30.Text = "HARDのみ";
             // 
             // label39
@@ -1059,25 +1059,25 @@
             this.label39.Location = new System.Drawing.Point(655, 60);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(47, 12);
-            this.label39.TabIndex = 17;
+            this.label39.TabIndex = 16;
             this.label39.Text = " 0.0時間";
             this.label39.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label38
             // 
-            this.label38.Location = new System.Drawing.Point(570, 60);
+            this.label38.Location = new System.Drawing.Point(588, 60);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(35, 12);
-            this.label38.TabIndex = 16;
+            this.label38.TabIndex = 15;
             this.label38.Text = "   0分";
             this.label38.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label37
             // 
-            this.label37.Location = new System.Drawing.Point(488, 60);
+            this.label37.Location = new System.Drawing.Point(475, 60);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(32, 12);
-            this.label37.TabIndex = 15;
+            this.label37.Size = new System.Drawing.Size(55, 12);
+            this.label37.TabIndex = 14;
             this.label37.Text = "  0LP";
             this.label37.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -1086,7 +1086,7 @@
             this.label36.Location = new System.Drawing.Point(351, 60);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(87, 12);
-            this.label36.TabIndex = 14;
+            this.label36.TabIndex = 13;
             this.label36.Text = " 0回でランクアップ";
             this.label36.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -1096,7 +1096,7 @@
             this.label29.Location = new System.Drawing.Point(570, 20);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(53, 12);
-            this.label29.TabIndex = 13;
+            this.label29.TabIndex = 12;
             this.label29.Text = "回復時間";
             // 
             // label28
@@ -1105,7 +1105,7 @@
             this.label28.Location = new System.Drawing.Point(488, 20);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(42, 12);
-            this.label28.TabIndex = 12;
+            this.label28.TabIndex = 11;
             this.label28.Text = "必要LP";
             // 
             // label27
@@ -1114,7 +1114,7 @@
             this.label27.Location = new System.Drawing.Point(351, 20);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(73, 12);
-            this.label27.TabIndex = 11;
+            this.label27.TabIndex = 10;
             this.label27.Text = "NORMALのみ";
             // 
             // numericUpDown3
@@ -1127,7 +1127,7 @@
             0});
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(75, 19);
-            this.numericUpDown3.TabIndex = 2;
+            this.numericUpDown3.TabIndex = 6;
             // 
             // numericUpDown2
             // 
@@ -1139,7 +1139,7 @@
             0});
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(75, 19);
-            this.numericUpDown2.TabIndex = 1;
+            this.numericUpDown2.TabIndex = 4;
             // 
             // numericUpDown1
             // 
@@ -1151,14 +1151,14 @@
             0});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(75, 19);
-            this.numericUpDown1.TabIndex = 0;
+            this.numericUpDown1.TabIndex = 2;
             // 
             // button14
             // 
             this.button14.Location = new System.Drawing.Point(195, 214);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(75, 25);
-            this.button14.TabIndex = 8;
+            this.button14.TabIndex = 9;
             this.button14.Text = "計算";
             this.button14.UseVisualStyleBackColor = true;
             this.button14.Click += new System.EventHandler(this.button14_Click);
@@ -1169,7 +1169,7 @@
             this.label26.Location = new System.Drawing.Point(17, 20);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(160, 12);
-            this.label26.TabIndex = 6;
+            this.label26.TabIndex = 0;
             this.label26.Text = "それぞれの値を入力してください。";
             // 
             // label25
@@ -1187,7 +1187,7 @@
             this.label24.Location = new System.Drawing.Point(31, 100);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(75, 12);
-            this.label24.TabIndex = 4;
+            this.label24.TabIndex = 3;
             this.label24.Text = "現在の経験値";
             // 
             // label23
@@ -1196,7 +1196,7 @@
             this.label23.Location = new System.Drawing.Point(31, 60);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(65, 12);
-            this.label23.TabIndex = 3;
+            this.label23.TabIndex = 1;
             this.label23.Text = "目標経験値";
             // 
             // tabPage1
@@ -1259,7 +1259,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(767, 526);
+            this.tabPage1.Size = new System.Drawing.Size(767, 469);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "各ボタン重要度計算機";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -1269,126 +1269,126 @@
             this.numericUpDown40.Location = new System.Drawing.Point(590, 157);
             this.numericUpDown40.Name = "numericUpDown40";
             this.numericUpDown40.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown40.TabIndex = 19;
+            this.numericUpDown40.TabIndex = 40;
             // 
             // numericUpDown39
             // 
             this.numericUpDown39.Location = new System.Drawing.Point(527, 157);
             this.numericUpDown39.Name = "numericUpDown39";
             this.numericUpDown39.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown39.TabIndex = 17;
+            this.numericUpDown39.TabIndex = 36;
             // 
             // numericUpDown38
             // 
             this.numericUpDown38.Location = new System.Drawing.Point(464, 157);
             this.numericUpDown38.Name = "numericUpDown38";
             this.numericUpDown38.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown38.TabIndex = 15;
+            this.numericUpDown38.TabIndex = 32;
             // 
             // numericUpDown37
             // 
             this.numericUpDown37.Location = new System.Drawing.Point(401, 157);
             this.numericUpDown37.Name = "numericUpDown37";
             this.numericUpDown37.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown37.TabIndex = 13;
+            this.numericUpDown37.TabIndex = 28;
             // 
             // numericUpDown36
             // 
             this.numericUpDown36.Location = new System.Drawing.Point(338, 157);
             this.numericUpDown36.Name = "numericUpDown36";
             this.numericUpDown36.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown36.TabIndex = 11;
+            this.numericUpDown36.TabIndex = 24;
             // 
             // numericUpDown35
             // 
             this.numericUpDown35.Location = new System.Drawing.Point(275, 157);
             this.numericUpDown35.Name = "numericUpDown35";
             this.numericUpDown35.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown35.TabIndex = 9;
+            this.numericUpDown35.TabIndex = 20;
             // 
             // numericUpDown34
             // 
             this.numericUpDown34.Location = new System.Drawing.Point(212, 157);
             this.numericUpDown34.Name = "numericUpDown34";
             this.numericUpDown34.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown34.TabIndex = 7;
+            this.numericUpDown34.TabIndex = 16;
             // 
             // numericUpDown33
             // 
             this.numericUpDown33.Location = new System.Drawing.Point(149, 157);
             this.numericUpDown33.Name = "numericUpDown33";
             this.numericUpDown33.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown33.TabIndex = 5;
+            this.numericUpDown33.TabIndex = 12;
             // 
             // numericUpDown32
             // 
             this.numericUpDown32.Location = new System.Drawing.Point(86, 157);
             this.numericUpDown32.Name = "numericUpDown32";
             this.numericUpDown32.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown32.TabIndex = 3;
+            this.numericUpDown32.TabIndex = 8;
             // 
             // numericUpDown31
             // 
             this.numericUpDown31.Location = new System.Drawing.Point(590, 121);
             this.numericUpDown31.Name = "numericUpDown31";
             this.numericUpDown31.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown31.TabIndex = 18;
+            this.numericUpDown31.TabIndex = 39;
             // 
             // numericUpDown30
             // 
             this.numericUpDown30.Location = new System.Drawing.Point(527, 121);
             this.numericUpDown30.Name = "numericUpDown30";
             this.numericUpDown30.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown30.TabIndex = 16;
+            this.numericUpDown30.TabIndex = 35;
             // 
             // numericUpDown29
             // 
             this.numericUpDown29.Location = new System.Drawing.Point(464, 121);
             this.numericUpDown29.Name = "numericUpDown29";
             this.numericUpDown29.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown29.TabIndex = 14;
+            this.numericUpDown29.TabIndex = 31;
             // 
             // numericUpDown28
             // 
             this.numericUpDown28.Location = new System.Drawing.Point(401, 121);
             this.numericUpDown28.Name = "numericUpDown28";
             this.numericUpDown28.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown28.TabIndex = 12;
+            this.numericUpDown28.TabIndex = 27;
             // 
             // numericUpDown27
             // 
             this.numericUpDown27.Location = new System.Drawing.Point(337, 121);
             this.numericUpDown27.Name = "numericUpDown27";
             this.numericUpDown27.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown27.TabIndex = 10;
+            this.numericUpDown27.TabIndex = 23;
             // 
             // numericUpDown26
             // 
             this.numericUpDown26.Location = new System.Drawing.Point(275, 121);
             this.numericUpDown26.Name = "numericUpDown26";
             this.numericUpDown26.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown26.TabIndex = 8;
+            this.numericUpDown26.TabIndex = 19;
             // 
             // numericUpDown25
             // 
             this.numericUpDown25.Location = new System.Drawing.Point(212, 121);
             this.numericUpDown25.Name = "numericUpDown25";
             this.numericUpDown25.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown25.TabIndex = 6;
+            this.numericUpDown25.TabIndex = 15;
             // 
             // numericUpDown24
             // 
             this.numericUpDown24.Location = new System.Drawing.Point(149, 121);
             this.numericUpDown24.Name = "numericUpDown24";
             this.numericUpDown24.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown24.TabIndex = 4;
+            this.numericUpDown24.TabIndex = 11;
             // 
             // numericUpDown23
             // 
             this.numericUpDown23.Location = new System.Drawing.Point(86, 121);
             this.numericUpDown23.Name = "numericUpDown23";
             this.numericUpDown23.Size = new System.Drawing.Size(44, 19);
-            this.numericUpDown23.TabIndex = 2;
+            this.numericUpDown23.TabIndex = 7;
             // 
             // tabPage3
             // 
@@ -1452,7 +1452,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(767, 526);
+            this.tabPage3.Size = new System.Drawing.Size(767, 469);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "InputFileCreator";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -1463,7 +1463,7 @@
             this.button30.Location = new System.Drawing.Point(183, 357);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(137, 49);
-            this.button30.TabIndex = 20;
+            this.button30.TabIndex = 41;
             this.button30.Text = "更新";
             this.button30.UseVisualStyleBackColor = true;
             this.button30.Click += new System.EventHandler(this.button30_Click);
@@ -1474,7 +1474,7 @@
             this.button29.Location = new System.Drawing.Point(19, 357);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(137, 49);
-            this.button29.TabIndex = 21;
+            this.button29.TabIndex = 40;
             this.button29.Text = "リセット";
             this.button29.UseVisualStyleBackColor = true;
             this.button29.Click += new System.EventHandler(this.button29_Click);
@@ -1487,14 +1487,14 @@
             this.label81.Location = new System.Drawing.Point(359, 66);
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(0, 12);
-            this.label81.TabIndex = 141;
+            this.label81.TabIndex = 36;
             // 
             // button28
             // 
             this.button28.Location = new System.Drawing.Point(489, 357);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(137, 49);
-            this.button28.TabIndex = 19;
+            this.button28.TabIndex = 39;
             this.button28.Text = "記録開始";
             this.button28.UseVisualStyleBackColor = true;
             this.button28.Click += new System.EventHandler(this.button28_Click);
@@ -1505,7 +1505,7 @@
             this.button27.Location = new System.Drawing.Point(645, 433);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(75, 23);
-            this.button27.TabIndex = 25;
+            this.button27.TabIndex = 47;
             this.button27.Text = "終了";
             this.button27.UseVisualStyleBackColor = true;
             this.button27.Click += new System.EventHandler(this.button27_Click);
@@ -1515,7 +1515,7 @@
             this.button26.Location = new System.Drawing.Point(645, 404);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(75, 23);
-            this.button26.TabIndex = 24;
+            this.button26.TabIndex = 46;
             this.button26.Text = "保存";
             this.button26.UseVisualStyleBackColor = true;
             this.button26.Click += new System.EventHandler(this.button26_Click);
@@ -1531,7 +1531,7 @@
             this.comboBox1.Location = new System.Drawing.Point(424, 435);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(133, 20);
-            this.comboBox1.TabIndex = 23;
+            this.comboBox1.TabIndex = 45;
             this.comboBox1.Text = "HARD";
             // 
             // label79
@@ -1540,7 +1540,7 @@
             this.label79.Location = new System.Drawing.Point(376, 438);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(41, 12);
-            this.label79.TabIndex = 136;
+            this.label79.TabIndex = 44;
             this.label79.Text = "難易度";
             // 
             // textBox20
@@ -1548,7 +1548,7 @@
             this.textBox20.Location = new System.Drawing.Point(58, 435);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(294, 19);
-            this.textBox20.TabIndex = 22;
+            this.textBox20.TabIndex = 43;
             // 
             // label82
             // 
@@ -1556,7 +1556,7 @@
             this.label82.Location = new System.Drawing.Point(23, 438);
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(29, 12);
-            this.label82.TabIndex = 134;
+            this.label82.TabIndex = 42;
             this.label82.Text = "曲名";
             // 
             // label78
@@ -1565,7 +1565,7 @@
             this.label78.Location = new System.Drawing.Point(311, 99);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(43, 12);
-            this.label78.TabIndex = 131;
+            this.label78.TabIndex = 37;
             this.label78.Text = "ノート数";
             // 
             // numericUpDown22
@@ -1578,7 +1578,7 @@
             0});
             this.numericUpDown22.Name = "numericUpDown22";
             this.numericUpDown22.Size = new System.Drawing.Size(89, 19);
-            this.numericUpDown22.TabIndex = 18;
+            this.numericUpDown22.TabIndex = 38;
             // 
             // label77
             // 
@@ -1586,7 +1586,7 @@
             this.label77.Location = new System.Drawing.Point(334, 359);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(58, 12);
-            this.label77.TabIndex = 129;
+            this.label77.TabIndex = 16;
             this.label77.Text = "5単押し(5)";
             // 
             // label76
@@ -1595,7 +1595,7 @@
             this.label76.Location = new System.Drawing.Point(334, 389);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(59, 12);
-            this.label76.TabIndex = 128;
+            this.label76.TabIndex = 18;
             this.label76.Text = "5長押し(T)";
             // 
             // numericUpDown21
@@ -1603,126 +1603,126 @@
             this.numericUpDown21.Location = new System.Drawing.Point(691, 64);
             this.numericUpDown21.Name = "numericUpDown21";
             this.numericUpDown21.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown21.TabIndex = 17;
+            this.numericUpDown21.TabIndex = 35;
             // 
             // numericUpDown20
             // 
             this.numericUpDown20.Location = new System.Drawing.Point(691, 31);
             this.numericUpDown20.Name = "numericUpDown20";
             this.numericUpDown20.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown20.TabIndex = 16;
+            this.numericUpDown20.TabIndex = 33;
             // 
             // numericUpDown19
             // 
             this.numericUpDown19.Location = new System.Drawing.Point(691, 130);
             this.numericUpDown19.Name = "numericUpDown19";
             this.numericUpDown19.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown19.TabIndex = 15;
+            this.numericUpDown19.TabIndex = 31;
             // 
             // numericUpDown18
             // 
             this.numericUpDown18.Location = new System.Drawing.Point(691, 97);
             this.numericUpDown18.Name = "numericUpDown18";
             this.numericUpDown18.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown18.TabIndex = 14;
+            this.numericUpDown18.TabIndex = 29;
             // 
             // numericUpDown17
             // 
             this.numericUpDown17.Location = new System.Drawing.Point(691, 197);
             this.numericUpDown17.Name = "numericUpDown17";
             this.numericUpDown17.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown17.TabIndex = 13;
+            this.numericUpDown17.TabIndex = 27;
             // 
             // numericUpDown16
             // 
             this.numericUpDown16.Location = new System.Drawing.Point(691, 164);
             this.numericUpDown16.Name = "numericUpDown16";
             this.numericUpDown16.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown16.TabIndex = 12;
+            this.numericUpDown16.TabIndex = 25;
             // 
             // numericUpDown15
             // 
             this.numericUpDown15.Location = new System.Drawing.Point(691, 262);
             this.numericUpDown15.Name = "numericUpDown15";
             this.numericUpDown15.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown15.TabIndex = 11;
+            this.numericUpDown15.TabIndex = 23;
             // 
             // numericUpDown14
             // 
             this.numericUpDown14.Location = new System.Drawing.Point(691, 229);
             this.numericUpDown14.Name = "numericUpDown14";
             this.numericUpDown14.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown14.TabIndex = 10;
+            this.numericUpDown14.TabIndex = 21;
             // 
             // numericUpDown13
             // 
             this.numericUpDown13.Location = new System.Drawing.Point(404, 387);
             this.numericUpDown13.Name = "numericUpDown13";
             this.numericUpDown13.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown13.TabIndex = 9;
+            this.numericUpDown13.TabIndex = 19;
             // 
             // numericUpDown12
             // 
             this.numericUpDown12.Location = new System.Drawing.Point(404, 357);
             this.numericUpDown12.Name = "numericUpDown12";
             this.numericUpDown12.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown12.TabIndex = 8;
+            this.numericUpDown12.TabIndex = 17;
             // 
             // numericUpDown11
             // 
             this.numericUpDown11.Location = new System.Drawing.Point(76, 262);
             this.numericUpDown11.Name = "numericUpDown11";
             this.numericUpDown11.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown11.TabIndex = 7;
+            this.numericUpDown11.TabIndex = 15;
             // 
             // numericUpDown10
             // 
             this.numericUpDown10.Location = new System.Drawing.Point(76, 229);
             this.numericUpDown10.Name = "numericUpDown10";
             this.numericUpDown10.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown10.TabIndex = 6;
+            this.numericUpDown10.TabIndex = 13;
             // 
             // numericUpDown9
             // 
             this.numericUpDown9.Location = new System.Drawing.Point(76, 196);
             this.numericUpDown9.Name = "numericUpDown9";
             this.numericUpDown9.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown9.TabIndex = 5;
+            this.numericUpDown9.TabIndex = 11;
             // 
             // numericUpDown8
             // 
             this.numericUpDown8.Location = new System.Drawing.Point(76, 163);
             this.numericUpDown8.Name = "numericUpDown8";
             this.numericUpDown8.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown8.TabIndex = 4;
+            this.numericUpDown8.TabIndex = 9;
             // 
             // numericUpDown7
             // 
             this.numericUpDown7.Location = new System.Drawing.Point(76, 130);
             this.numericUpDown7.Name = "numericUpDown7";
             this.numericUpDown7.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown7.TabIndex = 3;
+            this.numericUpDown7.TabIndex = 7;
             // 
             // numericUpDown6
             // 
             this.numericUpDown6.Location = new System.Drawing.Point(76, 97);
             this.numericUpDown6.Name = "numericUpDown6";
             this.numericUpDown6.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown6.TabIndex = 2;
+            this.numericUpDown6.TabIndex = 5;
             // 
             // numericUpDown5
             // 
             this.numericUpDown5.Location = new System.Drawing.Point(76, 64);
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown5.TabIndex = 1;
+            this.numericUpDown5.TabIndex = 3;
             // 
             // numericUpDown4
             // 
             this.numericUpDown4.Location = new System.Drawing.Point(76, 31);
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown4.TabIndex = 0;
+            this.numericUpDown4.TabIndex = 1;
             // 
             // label68
             // 
@@ -1730,7 +1730,7 @@
             this.label68.Location = new System.Drawing.Point(621, 264);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(59, 12);
-            this.label68.TabIndex = 109;
+            this.label68.TabIndex = 22;
             this.label68.Text = "6長押し(Y)";
             // 
             // label69
@@ -1739,7 +1739,7 @@
             this.label69.Location = new System.Drawing.Point(621, 231);
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(58, 12);
-            this.label69.TabIndex = 108;
+            this.label69.TabIndex = 20;
             this.label69.Text = "6単押し(6)";
             // 
             // label70
@@ -1748,7 +1748,7 @@
             this.label70.Location = new System.Drawing.Point(621, 198);
             this.label70.Name = "label70";
             this.label70.Size = new System.Drawing.Size(60, 12);
-            this.label70.TabIndex = 107;
+            this.label70.TabIndex = 26;
             this.label70.Text = "7長押し(U)";
             // 
             // label71
@@ -1757,7 +1757,7 @@
             this.label71.Location = new System.Drawing.Point(621, 165);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(58, 12);
-            this.label71.TabIndex = 106;
+            this.label71.TabIndex = 24;
             this.label71.Text = "7単押し(7)";
             // 
             // label72
@@ -1766,7 +1766,7 @@
             this.label72.Location = new System.Drawing.Point(621, 132);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(55, 12);
-            this.label72.TabIndex = 105;
+            this.label72.TabIndex = 30;
             this.label72.Text = "8長押し(I)";
             // 
             // label73
@@ -1775,7 +1775,7 @@
             this.label73.Location = new System.Drawing.Point(621, 99);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(58, 12);
-            this.label73.TabIndex = 104;
+            this.label73.TabIndex = 28;
             this.label73.Text = "8単押し(8)";
             // 
             // label74
@@ -1784,7 +1784,7 @@
             this.label74.Location = new System.Drawing.Point(621, 66);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(60, 12);
-            this.label74.TabIndex = 103;
+            this.label74.TabIndex = 34;
             this.label74.Text = "9長押し(O)";
             // 
             // label75
@@ -1793,7 +1793,7 @@
             this.label75.Location = new System.Drawing.Point(621, 33);
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(58, 12);
-            this.label75.TabIndex = 102;
+            this.label75.TabIndex = 32;
             this.label75.Text = "9単押し(9)";
             // 
             // label66
@@ -1802,7 +1802,7 @@
             this.label66.Location = new System.Drawing.Point(6, 264);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(60, 12);
-            this.label66.TabIndex = 101;
+            this.label66.TabIndex = 14;
             this.label66.Text = "4長押し(R)";
             // 
             // label67
@@ -1811,7 +1811,7 @@
             this.label67.Location = new System.Drawing.Point(6, 231);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(58, 12);
-            this.label67.TabIndex = 100;
+            this.label67.TabIndex = 12;
             this.label67.Text = "4単押し(4)";
             // 
             // label64
@@ -1820,7 +1820,7 @@
             this.label64.Location = new System.Drawing.Point(6, 198);
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(59, 12);
-            this.label64.TabIndex = 99;
+            this.label64.TabIndex = 10;
             this.label64.Text = "3長押し(E)";
             // 
             // label65
@@ -1829,7 +1829,7 @@
             this.label65.Location = new System.Drawing.Point(6, 165);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(58, 12);
-            this.label65.TabIndex = 98;
+            this.label65.TabIndex = 8;
             this.label65.Text = "3単押し(3)";
             // 
             // label62
@@ -1838,7 +1838,7 @@
             this.label62.Location = new System.Drawing.Point(6, 132);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(61, 12);
-            this.label62.TabIndex = 97;
+            this.label62.TabIndex = 6;
             this.label62.Text = "2長押し(W)";
             // 
             // label63
@@ -1847,7 +1847,7 @@
             this.label63.Location = new System.Drawing.Point(6, 99);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(58, 12);
-            this.label63.TabIndex = 96;
+            this.label63.TabIndex = 4;
             this.label63.Text = "2単押し(2)";
             // 
             // label61
@@ -1856,7 +1856,7 @@
             this.label61.Location = new System.Drawing.Point(6, 66);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(60, 12);
-            this.label61.TabIndex = 95;
+            this.label61.TabIndex = 2;
             this.label61.Text = "1長押し(Q)";
             // 
             // label60
@@ -1865,7 +1865,7 @@
             this.label60.Location = new System.Drawing.Point(6, 33);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(58, 12);
-            this.label60.TabIndex = 94;
+            this.label60.TabIndex = 0;
             this.label60.Text = "1単押し(1)";
             // 
             // button20
@@ -1873,7 +1873,7 @@
             this.button20.Location = new System.Drawing.Point(290, 231);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(45, 45);
-            this.button20.TabIndex = 93;
+            this.button20.TabIndex = 51;
             this.button20.Text = "4";
             this.button20.UseVisualStyleBackColor = true;
             this.button20.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
@@ -1883,7 +1883,7 @@
             this.button23.Location = new System.Drawing.Point(152, 33);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(45, 45);
-            this.button23.TabIndex = 92;
+            this.button23.TabIndex = 48;
             this.button23.Text = "1";
             this.button23.UseVisualStyleBackColor = true;
             this.button23.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
@@ -1893,7 +1893,7 @@
             this.button22.Location = new System.Drawing.Point(172, 97);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(45, 45);
-            this.button22.TabIndex = 90;
+            this.button22.TabIndex = 49;
             this.button22.Text = "2";
             this.button22.UseVisualStyleBackColor = true;
             this.button22.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
@@ -1903,7 +1903,7 @@
             this.button21.Location = new System.Drawing.Point(227, 163);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(45, 45);
-            this.button21.TabIndex = 87;
+            this.button21.TabIndex = 50;
             this.button21.Text = "3";
             this.button21.UseVisualStyleBackColor = true;
             this.button21.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
@@ -1913,7 +1913,7 @@
             this.button19.Location = new System.Drawing.Point(361, 295);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(45, 45);
-            this.button19.TabIndex = 82;
+            this.button19.TabIndex = 52;
             this.button19.Text = "5";
             this.button19.UseVisualStyleBackColor = true;
             this.button19.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
@@ -1923,7 +1923,7 @@
             this.button15.Location = new System.Drawing.Point(570, 33);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(45, 45);
-            this.button15.TabIndex = 86;
+            this.button15.TabIndex = 56;
             this.button15.Text = "9";
             this.button15.UseVisualStyleBackColor = true;
             this.button15.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
@@ -1933,7 +1933,7 @@
             this.button16.Location = new System.Drawing.Point(550, 97);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(45, 45);
-            this.button16.TabIndex = 85;
+            this.button16.TabIndex = 55;
             this.button16.Text = "8";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
@@ -1943,7 +1943,7 @@
             this.button17.Location = new System.Drawing.Point(495, 163);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(45, 45);
-            this.button17.TabIndex = 84;
+            this.button17.TabIndex = 54;
             this.button17.Text = "7";
             this.button17.UseVisualStyleBackColor = true;
             this.button17.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
@@ -1953,7 +1953,7 @@
             this.button18.Location = new System.Drawing.Point(432, 231);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(45, 45);
-            this.button18.TabIndex = 83;
+            this.button18.TabIndex = 53;
             this.button18.Text = "6";
             this.button18.UseVisualStyleBackColor = true;
             this.button18.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Record_PreviewKeyDown);
@@ -1975,7 +1975,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(767, 526);
+            this.tabPage4.Size = new System.Drawing.Size(767, 469);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "メドレーフェスティバル";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -1994,14 +1994,14 @@
             this.panel8.Location = new System.Drawing.Point(238, 287);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(206, 140);
-            this.panel8.TabIndex = 96;
+            this.panel8.TabIndex = 8;
             // 
             // label119
             // 
             this.label119.Location = new System.Drawing.Point(24, 116);
             this.label119.Name = "label119";
             this.label119.Size = new System.Drawing.Size(173, 12);
-            this.label119.TabIndex = 100;
+            this.label119.TabIndex = 8;
             this.label119.Text = "年  月  日  時  分頃";
             this.label119.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -2010,7 +2010,7 @@
             this.label118.Location = new System.Drawing.Point(126, 93);
             this.label118.Name = "label118";
             this.label118.Size = new System.Drawing.Size(71, 12);
-            this.label118.TabIndex = 99;
+            this.label118.TabIndex = 7;
             this.label118.Text = "0.0時間";
             this.label118.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -2019,7 +2019,7 @@
             this.label117.Location = new System.Drawing.Point(126, 70);
             this.label117.Name = "label117";
             this.label117.Size = new System.Drawing.Size(71, 12);
-            this.label117.TabIndex = 98;
+            this.label117.TabIndex = 6;
             this.label117.Text = "0分";
             this.label117.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -2028,7 +2028,7 @@
             this.label115.Location = new System.Drawing.Point(126, 47);
             this.label115.Name = "label115";
             this.label115.Size = new System.Drawing.Size(71, 12);
-            this.label115.TabIndex = 97;
+            this.label115.TabIndex = 4;
             this.label115.Text = "0LP";
             this.label115.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -2037,7 +2037,7 @@
             this.label113.Location = new System.Drawing.Point(126, 24);
             this.label113.Name = "label113";
             this.label113.Size = new System.Drawing.Size(71, 12);
-            this.label113.TabIndex = 96;
+            this.label113.TabIndex = 2;
             this.label113.Text = "0回";
             this.label113.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -2047,7 +2047,7 @@
             this.label112.Location = new System.Drawing.Point(22, 24);
             this.label112.Name = "label112";
             this.label112.Size = new System.Drawing.Size(56, 12);
-            this.label112.TabIndex = 95;
+            this.label112.TabIndex = 1;
             this.label112.Text = "プレイ回数";
             // 
             // label111
@@ -2056,7 +2056,7 @@
             this.label111.Location = new System.Drawing.Point(-2, 0);
             this.label111.Name = "label111";
             this.label111.Size = new System.Drawing.Size(84, 12);
-            this.label111.TabIndex = 66;
+            this.label111.TabIndex = 0;
             this.label111.Text = "目標ポイントまで";
             // 
             // label114
@@ -2065,7 +2065,7 @@
             this.label114.Location = new System.Drawing.Point(22, 47);
             this.label114.Name = "label114";
             this.label114.Size = new System.Drawing.Size(42, 12);
-            this.label114.TabIndex = 67;
+            this.label114.TabIndex = 3;
             this.label114.Text = "必要LP";
             // 
             // label116
@@ -2074,7 +2074,7 @@
             this.label116.Location = new System.Drawing.Point(22, 70);
             this.label116.Name = "label116";
             this.label116.Size = new System.Drawing.Size(53, 12);
-            this.label116.TabIndex = 69;
+            this.label116.TabIndex = 5;
             this.label116.Text = "回復時間";
             // 
             // panel7
@@ -2091,14 +2091,14 @@
             this.panel7.Location = new System.Drawing.Point(17, 287);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(173, 140);
-            this.panel7.TabIndex = 68;
+            this.panel7.TabIndex = 5;
             // 
             // label110
             // 
             this.label110.Location = new System.Drawing.Point(24, 116);
             this.label110.Name = "label110";
             this.label110.Size = new System.Drawing.Size(137, 12);
-            this.label110.TabIndex = 93;
+            this.label110.TabIndex = 8;
             this.label110.Text = "年  月  日  時  分頃";
             this.label110.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -2108,7 +2108,7 @@
             this.label103.Location = new System.Drawing.Point(22, 24);
             this.label103.Name = "label103";
             this.label103.Size = new System.Drawing.Size(56, 12);
-            this.label103.TabIndex = 95;
+            this.label103.TabIndex = 1;
             this.label103.Text = "プレイ回数";
             // 
             // label104
@@ -2116,7 +2116,7 @@
             this.label104.Location = new System.Drawing.Point(92, 24);
             this.label104.Name = "label104";
             this.label104.Size = new System.Drawing.Size(69, 12);
-            this.label104.TabIndex = 94;
+            this.label104.TabIndex = 2;
             this.label104.Text = "0回";
             this.label104.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -2125,7 +2125,7 @@
             this.label109.Location = new System.Drawing.Point(92, 93);
             this.label109.Name = "label109";
             this.label109.Size = new System.Drawing.Size(69, 12);
-            this.label109.TabIndex = 92;
+            this.label109.TabIndex = 7;
             this.label109.Text = "0.0時間";
             this.label109.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -2135,7 +2135,7 @@
             this.label102.Location = new System.Drawing.Point(-2, 0);
             this.label102.Name = "label102";
             this.label102.Size = new System.Drawing.Size(93, 12);
-            this.label102.TabIndex = 66;
+            this.label102.TabIndex = 0;
             this.label102.Text = "ランクアップするまで";
             // 
             // label108
@@ -2143,7 +2143,7 @@
             this.label108.Location = new System.Drawing.Point(92, 70);
             this.label108.Name = "label108";
             this.label108.Size = new System.Drawing.Size(69, 12);
-            this.label108.TabIndex = 70;
+            this.label108.TabIndex = 6;
             this.label108.Text = "0分";
             this.label108.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -2153,7 +2153,7 @@
             this.label105.Location = new System.Drawing.Point(22, 47);
             this.label105.Name = "label105";
             this.label105.Size = new System.Drawing.Size(42, 12);
-            this.label105.TabIndex = 67;
+            this.label105.TabIndex = 3;
             this.label105.Text = "必要LP";
             // 
             // label107
@@ -2162,7 +2162,7 @@
             this.label107.Location = new System.Drawing.Point(22, 70);
             this.label107.Name = "label107";
             this.label107.Size = new System.Drawing.Size(53, 12);
-            this.label107.TabIndex = 69;
+            this.label107.TabIndex = 5;
             this.label107.Text = "回復時間";
             // 
             // label106
@@ -2170,7 +2170,7 @@
             this.label106.Location = new System.Drawing.Point(92, 47);
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(69, 12);
-            this.label106.TabIndex = 65;
+            this.label106.TabIndex = 4;
             this.label106.Text = "0LP";
             this.label106.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -2180,7 +2180,7 @@
             this.checkBox7.Location = new System.Drawing.Point(17, 202);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(126, 16);
-            this.checkBox7.TabIndex = 36;
+            this.checkBox7.TabIndex = 4;
             this.checkBox7.Text = "ランクアップ計算をする";
             this.checkBox7.UseVisualStyleBackColor = true;
             // 
@@ -2194,7 +2194,7 @@
             this.panel6.Location = new System.Drawing.Point(492, 202);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(174, 67);
-            this.panel6.TabIndex = 60;
+            this.panel6.TabIndex = 9;
             // 
             // label99
             // 
@@ -2202,7 +2202,7 @@
             this.label99.Location = new System.Drawing.Point(3, 0);
             this.label99.Name = "label99";
             this.label99.Size = new System.Drawing.Size(118, 12);
-            this.label99.TabIndex = 58;
+            this.label99.TabIndex = 0;
             this.label99.Text = "現状を入力して下さい。";
             // 
             // label101
@@ -2211,7 +2211,7 @@
             this.label101.Location = new System.Drawing.Point(12, 50);
             this.label101.Name = "label101";
             this.label101.Size = new System.Drawing.Size(42, 12);
-            this.label101.TabIndex = 64;
+            this.label101.TabIndex = 3;
             this.label101.Text = "現在LP";
             // 
             // numericUpDown48
@@ -2224,7 +2224,7 @@
             0});
             this.numericUpDown48.Name = "numericUpDown48";
             this.numericUpDown48.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown48.TabIndex = 61;
+            this.numericUpDown48.TabIndex = 4;
             // 
             // label100
             // 
@@ -2232,7 +2232,7 @@
             this.label100.Location = new System.Drawing.Point(12, 25);
             this.label100.Name = "label100";
             this.label100.Size = new System.Drawing.Size(54, 12);
-            this.label100.TabIndex = 63;
+            this.label100.TabIndex = 1;
             this.label100.Text = "現在ランク";
             // 
             // numericUpDown47
@@ -2245,7 +2245,7 @@
             0});
             this.numericUpDown47.Name = "numericUpDown47";
             this.numericUpDown47.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown47.TabIndex = 57;
+            this.numericUpDown47.TabIndex = 2;
             // 
             // panel5
             // 
@@ -2257,7 +2257,7 @@
             this.panel5.Location = new System.Drawing.Point(238, 202);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(206, 67);
-            this.panel5.TabIndex = 58;
+            this.panel5.TabIndex = 6;
             // 
             // label97
             // 
@@ -2265,7 +2265,7 @@
             this.label97.Location = new System.Drawing.Point(12, 25);
             this.label97.Name = "label97";
             this.label97.Size = new System.Drawing.Size(101, 12);
-            this.label97.TabIndex = 49;
+            this.label97.TabIndex = 1;
             this.label97.Text = "目標イベントポイント";
             // 
             // label98
@@ -2274,7 +2274,7 @@
             this.label98.Location = new System.Drawing.Point(12, 50);
             this.label98.Name = "label98";
             this.label98.Size = new System.Drawing.Size(101, 12);
-            this.label98.TabIndex = 53;
+            this.label98.TabIndex = 3;
             this.label98.Text = "現在イベントポイント";
             // 
             // numericUpDown45
@@ -2287,7 +2287,7 @@
             0});
             this.numericUpDown45.Name = "numericUpDown45";
             this.numericUpDown45.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown45.TabIndex = 56;
+            this.numericUpDown45.TabIndex = 2;
             // 
             // numericUpDown46
             // 
@@ -2299,7 +2299,7 @@
             0});
             this.numericUpDown46.Name = "numericUpDown46";
             this.numericUpDown46.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown46.TabIndex = 54;
+            this.numericUpDown46.TabIndex = 4;
             // 
             // checkBox8
             // 
@@ -2307,7 +2307,7 @@
             this.checkBox8.Location = new System.Drawing.Point(0, 0);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(148, 16);
-            this.checkBox8.TabIndex = 59;
+            this.checkBox8.TabIndex = 0;
             this.checkBox8.Text = "イベントポイント計算をする";
             this.checkBox8.UseVisualStyleBackColor = true;
             // 
@@ -2320,7 +2320,7 @@
             this.panel4.Location = new System.Drawing.Point(17, 202);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(173, 67);
-            this.panel4.TabIndex = 48;
+            this.panel4.TabIndex = 4;
             // 
             // label95
             // 
@@ -2328,7 +2328,7 @@
             this.label95.Location = new System.Drawing.Point(12, 25);
             this.label95.Name = "label95";
             this.label95.Size = new System.Drawing.Size(65, 12);
-            this.label95.TabIndex = 49;
+            this.label95.TabIndex = 0;
             this.label95.Text = "目標経験値";
             // 
             // numericUpDown44
@@ -2341,7 +2341,7 @@
             0});
             this.numericUpDown44.Name = "numericUpDown44";
             this.numericUpDown44.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown44.TabIndex = 56;
+            this.numericUpDown44.TabIndex = 3;
             // 
             // label96
             // 
@@ -2349,7 +2349,7 @@
             this.label96.Location = new System.Drawing.Point(12, 50);
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(65, 12);
-            this.label96.TabIndex = 51;
+            this.label96.TabIndex = 2;
             this.label96.Text = "現在経験値";
             // 
             // numericUpDown43
@@ -2362,14 +2362,14 @@
             0});
             this.numericUpDown43.Name = "numericUpDown43";
             this.numericUpDown43.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown43.TabIndex = 32;
+            this.numericUpDown43.TabIndex = 1;
             // 
             // button33
             // 
             this.button33.Location = new System.Drawing.Point(541, 31);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(77, 62);
-            this.button33.TabIndex = 47;
+            this.button33.TabIndex = 2;
             this.button33.Text = "計算";
             this.button33.UseVisualStyleBackColor = true;
             this.button33.Click += new System.EventHandler(this.button33_Click);
@@ -2384,14 +2384,14 @@
             this.panel3.Location = new System.Drawing.Point(17, 122);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(173, 62);
-            this.panel3.TabIndex = 44;
+            this.panel3.TabIndex = 3;
             // 
             // label94
             // 
             this.label94.Location = new System.Drawing.Point(94, 48);
             this.label94.Name = "label94";
             this.label94.Size = new System.Drawing.Size(69, 12);
-            this.label94.TabIndex = 97;
+            this.label94.TabIndex = 4;
             this.label94.Text = "0Exp";
             this.label94.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -2400,7 +2400,7 @@
             this.label93.Location = new System.Drawing.Point(94, 24);
             this.label93.Name = "label93";
             this.label93.Size = new System.Drawing.Size(69, 12);
-            this.label93.TabIndex = 96;
+            this.label93.TabIndex = 2;
             this.label93.Text = "0回";
             this.label93.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -2410,7 +2410,7 @@
             this.label90.Location = new System.Drawing.Point(-2, 0);
             this.label90.Name = "label90";
             this.label90.Size = new System.Drawing.Size(136, 12);
-            this.label90.TabIndex = 40;
+            this.label90.TabIndex = 0;
             this.label90.Text = "1プレイで獲得できるポイント";
             // 
             // label92
@@ -2419,7 +2419,7 @@
             this.label92.Location = new System.Drawing.Point(12, 48);
             this.label92.Name = "label92";
             this.label92.Size = new System.Drawing.Size(65, 12);
-            this.label92.TabIndex = 43;
+            this.label92.TabIndex = 3;
             this.label92.Text = "獲得経験値";
             // 
             // label91
@@ -2428,7 +2428,7 @@
             this.label91.Location = new System.Drawing.Point(12, 24);
             this.label91.Name = "label91";
             this.label91.Size = new System.Drawing.Size(76, 12);
-            this.label91.TabIndex = 42;
+            this.label91.TabIndex = 1;
             this.label91.Text = "獲得イベントPt";
             // 
             // panel2
@@ -2439,7 +2439,7 @@
             this.panel2.Location = new System.Drawing.Point(372, 20);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(134, 84);
-            this.panel2.TabIndex = 41;
+            this.panel2.TabIndex = 1;
             // 
             // label87
             // 
@@ -2447,7 +2447,7 @@
             this.label87.Location = new System.Drawing.Point(-2, 0);
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(131, 12);
-            this.label87.TabIndex = 31;
+            this.label87.TabIndex = 0;
             this.label87.Text = "アレンジを選択して下さい。";
             // 
             // checkBox5
@@ -2456,7 +2456,7 @@
             this.checkBox5.Location = new System.Drawing.Point(16, 29);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(95, 16);
-            this.checkBox5.TabIndex = 34;
+            this.checkBox5.TabIndex = 1;
             this.checkBox5.Text = "イベントptアップ";
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
@@ -2466,7 +2466,7 @@
             this.checkBox6.Location = new System.Drawing.Point(16, 55);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(94, 16);
-            this.checkBox6.TabIndex = 35;
+            this.checkBox6.TabIndex = 2;
             this.checkBox6.Text = "獲得EXPアップ";
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
@@ -2484,7 +2484,7 @@
             this.panel1.Location = new System.Drawing.Point(17, 20);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(314, 84);
-            this.panel1.TabIndex = 1;
+            this.panel1.TabIndex = 0;
             // 
             // label84
             // 
@@ -2507,7 +2507,7 @@
             this.comboBox2.Location = new System.Drawing.Point(59, 27);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(70, 20);
-            this.comboBox2.TabIndex = 1;
+            this.comboBox2.TabIndex = 2;
             // 
             // comboBox4
             // 
@@ -2522,7 +2522,7 @@
             this.comboBox4.Location = new System.Drawing.Point(244, 53);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(70, 20);
-            this.comboBox4.TabIndex = 39;
+            this.comboBox4.TabIndex = 8;
             // 
             // label85
             // 
@@ -2530,7 +2530,7 @@
             this.label85.Location = new System.Drawing.Point(12, 31);
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(41, 12);
-            this.label85.TabIndex = 28;
+            this.label85.TabIndex = 1;
             this.label85.Text = "難易度";
             // 
             // comboBox3
@@ -2546,7 +2546,7 @@
             this.comboBox3.Location = new System.Drawing.Point(244, 27);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(70, 20);
-            this.comboBox3.TabIndex = 38;
+            this.comboBox3.TabIndex = 6;
             // 
             // label86
             // 
@@ -2554,7 +2554,7 @@
             this.label86.Location = new System.Drawing.Point(12, 56);
             this.label86.Name = "label86";
             this.label86.Size = new System.Drawing.Size(29, 12);
-            this.label86.TabIndex = 29;
+            this.label86.TabIndex = 3;
             this.label86.Text = "曲数";
             // 
             // label89
@@ -2563,7 +2563,7 @@
             this.label89.Location = new System.Drawing.Point(182, 57);
             this.label89.Name = "label89";
             this.label89.Size = new System.Drawing.Size(57, 12);
-            this.label89.TabIndex = 36;
+            this.label89.TabIndex = 7;
             this.label89.Text = "コンボランク";
             // 
             // numericUpDown42
@@ -2581,7 +2581,7 @@
             0});
             this.numericUpDown42.Name = "numericUpDown42";
             this.numericUpDown42.Size = new System.Drawing.Size(69, 19);
-            this.numericUpDown42.TabIndex = 30;
+            this.numericUpDown42.TabIndex = 4;
             this.numericUpDown42.Value = new decimal(new int[] {
             1,
             0,
@@ -2594,7 +2594,7 @@
             this.label88.Location = new System.Drawing.Point(182, 31);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(56, 12);
-            this.label88.TabIndex = 33;
+            this.label88.TabIndex = 5;
             this.label88.Text = "スコアランク";
             // 
             // button32
@@ -2602,7 +2602,7 @@
             this.button32.Location = new System.Drawing.Point(645, 433);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(75, 23);
-            this.button32.TabIndex = 27;
+            this.button32.TabIndex = 11;
             this.button32.Text = "終了";
             this.button32.UseVisualStyleBackColor = true;
             this.button32.Click += new System.EventHandler(this.button32_Click);
@@ -2612,7 +2612,7 @@
             this.button31.Location = new System.Drawing.Point(645, 404);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(75, 23);
-            this.button31.TabIndex = 26;
+            this.button31.TabIndex = 10;
             this.button31.Text = "保存";
             this.button31.UseVisualStyleBackColor = true;
             this.button31.Click += new System.EventHandler(this.button31_Click);
@@ -2621,7 +2621,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 562);
+            this.ClientSize = new System.Drawing.Size(784, 505);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";

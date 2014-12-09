@@ -94,3 +94,12 @@ C:\Users\owner\Dropbox\プログラミング\Visual Studio 2013\Projects\LoveLiv
 J:\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\bin\Debug\LoveLive_SchoolIdolFestival_Tools.exe.config
 J:\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive_SchoolIdolFestival_Tools.exe
 J:\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive_SchoolIdolFestival_Tools.pdb
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\bin\Debug\LoveLive_SchoolIdolFestival_Tools.exe.config
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive_SchoolIdolFestival_Tools.exe
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive_SchoolIdolFestival_Tools.pdb
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\bin\Debug\LoveLive_SchoolIdolFestival_Tools.exe
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\bin\Debug\LoveLive_SchoolIdolFestival_Tools.pdb
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive SchoolIdolFestival Tools.csprojResolveAssemblyReference.cache
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\ノート重要度計算機.Form1.resources
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive_SchoolIdolFestival_Tools.Properties.Resources.resources
+C:\Users\owner\Documents\GitHub\LoveLive_SchoolIdolFestival_Tools\LoveLive SchoolIdolFestival Tools\obj\Debug\LoveLive SchoolIdolFestival Tools.csproj.GenerateResource.Cache
