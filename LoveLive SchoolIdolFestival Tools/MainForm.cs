@@ -530,9 +530,15 @@ namespace ノート重要度計算機
                                         {72, 150, 234},
                                         {31, 64, 99}};
             int[] playLP = new int[] { 20, 12, 8, 4 };
+            int[] nextRankExp = new int[] {6, 6, 8, 10, 13,
+                16, 20, 24, 28, 34, 39, 46, 52, 60, 68, 76,
+                85, 94, 104, 115, 125, 197, 149, 162, 174,
+                188, 203, 217, 232, 247, 264, 281, 298};
             int maxEXP, nowEXP, needEXP;
             int maxEventPt, nowEventPt, needEventPt;
             int nowLP, needLP;
+            nowLP = (int)numericUpDown48.Value;
+            int RankTimes = 0, EventTimes = 0;
             DateTime dt1 = DateTime.Now, dt2;
 
             trac = (int)numericUpDown42.Value;
@@ -557,7 +563,7 @@ namespace ノート重要度計算機
                     break;
                 default:
                     difficulty = 0;
-                    Exp = 1;
+                    Exp = 83;
                     break;
             }
 
@@ -600,13 +606,11 @@ namespace ノート重要度計算機
             {
                 EventPt *= 1.1;
             }
-            Math.Round(EventPt, MidpointRounding.AwayFromZero);
 
             if (checkBox6.Checked == true)
             {
                 Exp *= 1.1;
             }
-            Math.Round(Exp, MidpointRounding.AwayFromZero);
 
             label93.Text = Math.Round(EventPt, MidpointRounding.AwayFromZero).ToString() + "Pt";
             label94.Text = Math.Round(Exp * trac, MidpointRounding.AwayFromZero).ToString() + "Exp";
@@ -614,22 +618,19 @@ namespace ノート重要度計算機
 //ランクアップ計算
             if (checkBox7.Checked == true)
             {
-                int i = 0;
-
                 maxEXP = (int)numericUpDown43.Value;
                 nowEXP = (int)numericUpDown44.Value;
                 needEXP = maxEXP - nowEXP;
-                nowLP = (int)numericUpDown48.Value;
 
                 while (needEXP > 0)
                 {
                     needEXP -= (int)Math.Round(Exp, MidpointRounding.AwayFromZero);
-                    ++i;
+                    ++RankTimes;
                 }
 
-                needLP = i * playLP[difficulty] * trac;
+                needLP = RankTimes * playLP[difficulty] * trac;
 
-                label104.Text = i.ToString() + "回";
+                label104.Text = RankTimes.ToString() + "回";
                 label106.Text = needLP.ToString() + "LP";
                 label108.Text = ((needLP - nowLP) * 6).ToString() + "分";
                 label109.Text = (((float)needLP - nowLP) * 6 / 60).ToString() + "時間";
@@ -642,22 +643,19 @@ namespace ノート重要度計算機
 //イベントポイント計算
             if (checkBox8.Checked == true)
             {
-                int i = 0;
-
                 maxEventPt = (int)numericUpDown45.Value;
                 nowEventPt = (int)numericUpDown46.Value;
                 needEventPt = maxEventPt - nowEventPt;
-                nowLP = (int)numericUpDown48.Value;
 
                 while (needEventPt > 0)
                 {
                     needEventPt -= (int)Math.Round(EventPt, MidpointRounding.AwayFromZero);
-                    ++i;
+                    ++EventTimes;
                 }
 
-                needLP = i * playLP[difficulty] * trac;
+                needLP = EventTimes * playLP[difficulty] * trac;
 
-                label113.Text = i.ToString() + "回";
+                label113.Text = EventTimes.ToString() + "回";
                 label115.Text = needLP.ToString() + "LP";
                 label117.Text = ((needLP - nowLP) * 6).ToString() + "分";
                 label118.Text = (((float)needLP - nowLP) * 6 / 60).ToString() + "時間";
@@ -666,6 +664,66 @@ namespace ノート重要度計算機
                 dt2 = dt1 + ts1;
                 label119.Text = dt2.Year + "年" + dt2.Month + "月" + dt2.Day + "日" + dt2.Hour + "時" + dt2.Minute + "分頃";
             }
+
+//ランクアップを考慮する
+            if (checkBox9.Checked == true)
+            {
+                int eventExp;
+                double targetExp;
+                int nextRank, nowRank;
+                int healLP;
+                int needTime;
+                int playNum = 0;
+                
+                nowRank = (int)numericUpDown47.Value;
+                nextRank = nowRank + 1;
+                needLP = EventTimes * playLP[difficulty] * trac;
+                needTime = (needLP - nowLP) * 6;
+                targetExp = (int)numericUpDown43.Value - (int)numericUpDown44.Value;
+                eventExp = EventTimes * (int)Math.Round(Exp * trac, MidpointRounding.AwayFromZero);
+
+                while (eventExp > targetExp)
+                {
+
+                    if (nextRank > 33)
+                    {
+                        targetExp = 34.45 * nextRank - 551;
+                        if (nextRank <= 100)
+                        {
+                            targetExp /= 2;
+                        }
+                    }
+                    else
+                    {
+                        targetExp = nextRankExp[nextRank - 1];
+                    }
+
+                    eventExp -= (int)Math.Round(targetExp, MidpointRounding.AwayFromZero);
+                    nowRank++;
+                    nextRank++;
+                    playNum++;
+
+                    if (nowRank < 300)
+                    {
+                        healLP = nowRank / 2 + 25;
+                    }
+                    else
+                    {
+                        healLP = (nowRank - 300) / 3 * 175;
+                    }
+
+                    needTime -= healLP * 6;
+                }
+
+
+                label120.Text = nowRank.ToString() + "ランク";
+                TimeSpan ts1 = new TimeSpan(0, 0, needTime, 0);
+                dt2 = dt1 + ts1;
+                label121.Text = dt2.Year + "年" + dt2.Month + "月" + dt2.Day + "日" + dt2.Hour + "時" + dt2.Minute + "分頃";
+
+
+            }
+                
         }
 
 //終了ボタン
