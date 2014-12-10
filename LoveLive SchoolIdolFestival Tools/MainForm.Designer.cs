@@ -197,6 +197,10 @@
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label121 = new System.Windows.Forms.Label();
+            this.label120 = new System.Windows.Forms.Label();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label119 = new System.Windows.Forms.Label();
             this.label118 = new System.Windows.Forms.Label();
@@ -259,10 +263,10 @@
             this.button32 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.label120 = new System.Windows.Forms.Label();
-            this.label121 = new System.Windows.Forms.Label();
+            this.label122 = new System.Windows.Forms.Label();
+            this.label123 = new System.Windows.Forms.Label();
+            this.label124 = new System.Windows.Forms.Label();
+            this.label125 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown41)).BeginInit();
@@ -309,6 +313,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
             this.tabPage4.SuspendLayout();
+            this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -324,7 +329,6 @@
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown42)).BeginInit();
-            this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -1986,6 +1990,47 @@
             this.tabPage4.Text = "メドレーフェスティバル";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.label125);
+            this.panel9.Controls.Add(this.label124);
+            this.panel9.Controls.Add(this.label123);
+            this.panel9.Controls.Add(this.label122);
+            this.panel9.Controls.Add(this.label121);
+            this.panel9.Controls.Add(this.label120);
+            this.panel9.Controls.Add(this.checkBox9);
+            this.panel9.Location = new System.Drawing.Point(492, 287);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(173, 105);
+            this.panel9.TabIndex = 12;
+            // 
+            // label121
+            // 
+            this.label121.Location = new System.Drawing.Point(12, 47);
+            this.label121.Name = "label121";
+            this.label121.Size = new System.Drawing.Size(56, 12);
+            this.label121.TabIndex = 4;
+            this.label121.Text = "ランク";
+            // 
+            // label120
+            // 
+            this.label120.Location = new System.Drawing.Point(12, 24);
+            this.label120.Name = "label120";
+            this.label120.Size = new System.Drawing.Size(150, 12);
+            this.label120.TabIndex = 1;
+            this.label120.Text = "目標ポイントに達した時";
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(0, 0);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(126, 16);
+            this.checkBox9.TabIndex = 0;
+            this.checkBox9.Text = "ランクアップを考慮する";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            this.checkBox9.CheckedChanged += new System.EventHandler(this.checkBox9_CheckedChanged);
+            // 
             // panel8
             // 
             this.panel8.Controls.Add(this.label119);
@@ -2101,9 +2146,9 @@
             // 
             // label110
             // 
-            this.label110.Location = new System.Drawing.Point(24, 116);
+            this.label110.Location = new System.Drawing.Point(0, 116);
             this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(137, 12);
+            this.label110.Size = new System.Drawing.Size(161, 12);
             this.label110.TabIndex = 8;
             this.label110.Text = "年  月  日  時  分頃";
             this.label110.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -2623,43 +2668,40 @@
             this.button31.UseVisualStyleBackColor = true;
             this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
-            // panel9
+            // label122
             // 
-            this.panel9.Controls.Add(this.label121);
-            this.panel9.Controls.Add(this.label120);
-            this.panel9.Controls.Add(this.checkBox9);
-            this.panel9.Location = new System.Drawing.Point(492, 287);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(173, 105);
-            this.panel9.TabIndex = 12;
+            this.label122.Location = new System.Drawing.Point(93, 47);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(69, 12);
+            this.label122.TabIndex = 5;
+            this.label122.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // checkBox9
+            // label123
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(0, 0);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(126, 16);
-            this.checkBox9.TabIndex = 0;
-            this.checkBox9.Text = "ランクアップを考慮する";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.label123.AutoSize = true;
+            this.label123.Location = new System.Drawing.Point(12, 70);
+            this.label123.Name = "label123";
+            this.label123.Size = new System.Drawing.Size(53, 12);
+            this.label123.TabIndex = 6;
+            this.label123.Text = "回復時間";
             // 
-            // label120
+            // label124
             // 
-            this.label120.Location = new System.Drawing.Point(12, 24);
-            this.label120.Name = "label120";
-            this.label120.Size = new System.Drawing.Size(150, 12);
-            this.label120.TabIndex = 1;
-            this.label120.Text = "ランク";
-            this.label120.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label124.Location = new System.Drawing.Point(93, 70);
+            this.label124.Name = "label124";
+            this.label124.Size = new System.Drawing.Size(69, 11);
+            this.label124.TabIndex = 7;
+            this.label124.Text = "分";
+            this.label124.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // label121
+            // label125
             // 
-            this.label121.Location = new System.Drawing.Point(14, 46);
-            this.label121.Name = "label121";
-            this.label121.Size = new System.Drawing.Size(148, 13);
-            this.label121.TabIndex = 2;
-            this.label121.Text = "年　月　日　時　分頃";
-            this.label121.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label125.Location = new System.Drawing.Point(14, 93);
+            this.label125.Name = "label125";
+            this.label125.Size = new System.Drawing.Size(148, 12);
+            this.label125.TabIndex = 8;
+            this.label125.Text = "年　月　日　時　分頃";
+            this.label125.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // Form1
             // 
@@ -2720,6 +2762,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel7.ResumeLayout(false);
@@ -2743,8 +2787,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown42)).EndInit();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2985,6 +3027,10 @@
         private System.Windows.Forms.CheckBox checkBox9;
         private System.Windows.Forms.Label label120;
         private System.Windows.Forms.Label label121;
+        private System.Windows.Forms.Label label122;
+        private System.Windows.Forms.Label label124;
+        private System.Windows.Forms.Label label123;
+        private System.Windows.Forms.Label label125;
     }
 }
 

@@ -568,7 +568,7 @@ namespace ノート重要度計算機
             }
 
             EventPt = basic[difficulty, trac - 1];
-            Exp = Exp * trac;
+            Exp *= trac;
 
             switch(comboBox3.Text)
             {
@@ -613,7 +613,7 @@ namespace ノート重要度計算機
             }
 
             label93.Text = Math.Round(EventPt, MidpointRounding.AwayFromZero).ToString() + "Pt";
-            label94.Text = Math.Round(Exp * trac, MidpointRounding.AwayFromZero).ToString() + "Exp";
+            label94.Text = Math.Round(Exp, MidpointRounding.AwayFromZero).ToString() + "Exp";
 
 //ランクアップ計算
             if (checkBox7.Checked == true)
@@ -669,7 +669,8 @@ namespace ノート重要度計算機
             if (checkBox9.Checked == true)
             {
                 int eventExp;
-                double targetExp;
+                double doubleExp;
+                int targetExp;
                 int nextRank, nowRank;
                 int healLP;
                 int needTime;
@@ -680,25 +681,26 @@ namespace ノート重要度計算機
                 needLP = EventTimes * playLP[difficulty] * trac;
                 needTime = (needLP - nowLP) * 6;
                 targetExp = (int)numericUpDown43.Value - (int)numericUpDown44.Value;
-                eventExp = EventTimes * (int)Math.Round(Exp * trac, MidpointRounding.AwayFromZero);
+                eventExp = EventTimes * (int)Math.Round(Exp, MidpointRounding.AwayFromZero);
 
                 while (eventExp > targetExp)
                 {
 
                     if (nextRank > 33)
                     {
-                        targetExp = 34.45 * nextRank - 551;
+                        doubleExp = 34.45 * nextRank - 551;
                         if (nextRank <= 100)
                         {
-                            targetExp /= 2;
+                            doubleExp /= 2;
                         }
+                        targetExp = (int)Math.Round(doubleExp, MidpointRounding.AwayFromZero);
                     }
                     else
                     {
                         targetExp = nextRankExp[nextRank - 1];
                     }
 
-                    eventExp -= (int)Math.Round(targetExp, MidpointRounding.AwayFromZero);
+                    eventExp -= targetExp;
                     nowRank++;
                     nextRank++;
                     playNum++;
@@ -709,22 +711,34 @@ namespace ノート重要度計算機
                     }
                     else
                     {
-                        healLP = (nowRank - 300) / 3 * 175;
+                        healLP = (nowRank - 300) / 3 + 175;
                     }
 
                     needTime -= healLP * 6;
                 }
 
 
-                label120.Text = nowRank.ToString() + "ランク";
+                label122.Text = (nowRank).ToString();
+                label124.Text = needTime.ToString() + "分";
                 TimeSpan ts1 = new TimeSpan(0, 0, needTime, 0);
                 dt2 = dt1 + ts1;
-                label121.Text = dt2.Year + "年" + dt2.Month + "月" + dt2.Day + "日" + dt2.Hour + "時" + dt2.Minute + "分頃";
+                label125.Text = dt2.Year + "年" + dt2.Month + "月" + dt2.Day + "日" + dt2.Hour + "時" + dt2.Minute + "分頃";
 
 
             }
-                
+
         }
+
+//ランクアップを考慮するとき、ランクアップ計算とイベントポイント計算にチェックを入れる
+        private void checkBox9_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox9.Checked == true)
+            {
+                checkBox7.Checked = true;
+                checkBox8.Checked = true;
+            }
+        }
+
 
 //終了ボタン
         private void button32_Click(object sender, EventArgs e)
@@ -779,6 +793,7 @@ namespace ノート重要度計算機
                 sw.Close();
             }
         }
+
 
 
     }
