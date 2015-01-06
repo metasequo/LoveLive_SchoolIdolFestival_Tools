@@ -796,5 +796,107 @@ namespace ノート重要度計算機
 
 
 
+        private void numericUpDown1_Enter(object sender, EventArgs e)
+        {
+            numericUpDown1.Select(0, numericUpDown1.Text.Length);
+        }
+
+        private void numericUpDown2_Enter(object sender, EventArgs e)
+        {
+            numericUpDown2.Select(0, numericUpDown2.Text.Length);
+        }
+
+        private void numericUpDown3_Enter(object sender, EventArgs e)
+        {
+            numericUpDown3.Select(0, numericUpDown3.Text.Length);
+        }
+
+        private void numericUpDown41_Enter(object sender, EventArgs e)
+        {
+            numericUpDown41.Select(0, numericUpDown41.Text.Length);
+        }
+
+        private void numericUpDown43_Enter(object sender, EventArgs e)
+        {
+            numericUpDown43.Select(0, numericUpDown43.Text.Length);
+        }
+
+        private void numericUpDown44_Enter(object sender, EventArgs e)
+        {
+            numericUpDown44.Select(0, numericUpDown44.Text.Length);
+        }
+
+        private void numericUpDown45_Enter(object sender, EventArgs e)
+        {
+            numericUpDown45.Select(0, numericUpDown45.Text.Length);
+        }
+
+        private void numericUpDown46_Enter(object sender, EventArgs e)
+        {
+            numericUpDown46.Select(0, numericUpDown46.Text.Length);
+        }
+
+        private void numericUpDown47_Enter(object sender, EventArgs e)
+        {
+            numericUpDown47.Select(0, numericUpDown47.Text.Length);
+        }
+
+        private void numericUpDown48_Enter(object sender, EventArgs e)
+        {
+            numericUpDown48.Select(0, numericUpDown48.Text.Length);
+        }
+
+        private void numericUpDown1_Click(object sender, EventArgs e)
+        {
+            numericUpDown1.Select(0, numericUpDown1.Text.Length);
+        }
+
+        private void numericUpDown2_Click(object sender, EventArgs e)
+        {
+            numericUpDown2.Select(0, numericUpDown2.Text.Length);
+        }
+
+        private void numericUpDown3_Click(object sender, EventArgs e)
+        {
+            numericUpDown3.Select(0, numericUpDown3.Text.Length);
+        }
+
+        private void numericUpDown41_Click(object sender, EventArgs e)
+        {
+            numericUpDown41.Select(0, numericUpDown41.Text.Length);
+        }
+
+        private void numericUpDown43_Click(object sender, EventArgs e)
+        {
+            numericUpDown43.Select(0, numericUpDown43.Text.Length);
+        }
+
+        private void numericUpDown44_Click(object sender, EventArgs e)
+        {
+            numericUpDown44.Select(0, numericUpDown44.Text.Length);
+        }
+
+        private void numericUpDown45_Click(object sender, EventArgs e)
+        {
+            numericUpDown45.Select(0, numericUpDown45.Text.Length);
+        }
+
+        private void numericUpDown46_Click(object sender, EventArgs e)
+        {
+            numericUpDown46.Select(0, numericUpDown46.Text.Length);
+        }
+
+        private void numericUpDown47_Click(object sender, EventArgs e)
+        {
+            numericUpDown47.Select(0, numericUpDown47.Text.Length);
+        }
+
+        private void numericUpDown48_Click(object sender, EventArgs e)
+        {
+            numericUpDown48.Select(0, numericUpDown48.Text.Length);
+        }
+
+
+
     }
 }

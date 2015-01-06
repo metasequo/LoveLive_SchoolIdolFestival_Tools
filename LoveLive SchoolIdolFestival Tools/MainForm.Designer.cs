@@ -198,6 +198,10 @@
             this.button18 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label125 = new System.Windows.Forms.Label();
+            this.label124 = new System.Windows.Forms.Label();
+            this.label123 = new System.Windows.Forms.Label();
+            this.label122 = new System.Windows.Forms.Label();
             this.label121 = new System.Windows.Forms.Label();
             this.label120 = new System.Windows.Forms.Label();
             this.checkBox9 = new System.Windows.Forms.CheckBox();
@@ -263,10 +267,6 @@
             this.button32 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.label122 = new System.Windows.Forms.Label();
-            this.label123 = new System.Windows.Forms.Label();
-            this.label124 = new System.Windows.Forms.Label();
-            this.label125 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown41)).BeginInit();
@@ -740,9 +740,9 @@
             // 
             // label51
             // 
-            this.label51.Location = new System.Drawing.Point(574, 384);
+            this.label51.Location = new System.Drawing.Point(551, 384);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(125, 12);
+            this.label51.Size = new System.Drawing.Size(148, 12);
             this.label51.TabIndex = 44;
             this.label51.Text = "    年  月  日  時  分頃";
             this.label51.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -786,6 +786,8 @@
             this.numericUpDown41.Name = "numericUpDown41";
             this.numericUpDown41.Size = new System.Drawing.Size(75, 19);
             this.numericUpDown41.TabIndex = 8;
+            this.numericUpDown41.Click += new System.EventHandler(this.numericUpDown41_Click);
+            this.numericUpDown41.Enter += new System.EventHandler(this.numericUpDown41_Enter);
             // 
             // checkBox3
             // 
@@ -858,9 +860,9 @@
             // 
             // label59
             // 
-            this.label59.Location = new System.Drawing.Point(574, 360);
+            this.label59.Location = new System.Drawing.Point(553, 360);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(47, 12);
+            this.label59.Size = new System.Drawing.Size(68, 12);
             this.label59.TabIndex = 43;
             this.label59.Text = " 0.0時間";
             this.label59.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -939,9 +941,9 @@
             // 
             // label47
             // 
-            this.label47.Location = new System.Drawing.Point(655, 220);
+            this.label47.Location = new System.Drawing.Point(633, 220);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(47, 12);
+            this.label47.Size = new System.Drawing.Size(69, 12);
             this.label47.TabIndex = 30;
             this.label47.Text = " 0.0時間";
             this.label47.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1002,9 +1004,9 @@
             // 
             // label43
             // 
-            this.label43.Location = new System.Drawing.Point(655, 140);
+            this.label43.Location = new System.Drawing.Point(631, 140);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(47, 12);
+            this.label43.Size = new System.Drawing.Size(71, 12);
             this.label43.TabIndex = 23;
             this.label43.Text = " 0.0時間";
             this.label43.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1065,9 +1067,9 @@
             // 
             // label39
             // 
-            this.label39.Location = new System.Drawing.Point(655, 60);
+            this.label39.Location = new System.Drawing.Point(629, 60);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(47, 12);
+            this.label39.Size = new System.Drawing.Size(73, 12);
             this.label39.TabIndex = 16;
             this.label39.Text = " 0.0時間";
             this.label39.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1137,6 +1139,8 @@
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(75, 19);
             this.numericUpDown3.TabIndex = 6;
+            this.numericUpDown3.Click += new System.EventHandler(this.numericUpDown3_Click);
+            this.numericUpDown3.Enter += new System.EventHandler(this.numericUpDown3_Enter);
             // 
             // numericUpDown2
             // 
@@ -1149,6 +1153,8 @@
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(75, 19);
             this.numericUpDown2.TabIndex = 4;
+            this.numericUpDown2.Click += new System.EventHandler(this.numericUpDown2_Click);
+            this.numericUpDown2.Enter += new System.EventHandler(this.numericUpDown2_Enter);
             // 
             // numericUpDown1
             // 
@@ -1161,6 +1167,8 @@
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(75, 19);
             this.numericUpDown1.TabIndex = 2;
+            this.numericUpDown1.Click += new System.EventHandler(this.numericUpDown1_Click);
+            this.numericUpDown1.Enter += new System.EventHandler(this.numericUpDown1_Enter);
             // 
             // button14
             // 
@@ -2004,6 +2012,41 @@
             this.panel9.Size = new System.Drawing.Size(173, 105);
             this.panel9.TabIndex = 12;
             // 
+            // label125
+            // 
+            this.label125.Location = new System.Drawing.Point(14, 93);
+            this.label125.Name = "label125";
+            this.label125.Size = new System.Drawing.Size(148, 12);
+            this.label125.TabIndex = 8;
+            this.label125.Text = "年　月　日　時　分頃";
+            this.label125.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label124
+            // 
+            this.label124.Location = new System.Drawing.Point(93, 70);
+            this.label124.Name = "label124";
+            this.label124.Size = new System.Drawing.Size(69, 11);
+            this.label124.TabIndex = 7;
+            this.label124.Text = "分";
+            this.label124.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label123
+            // 
+            this.label123.AutoSize = true;
+            this.label123.Location = new System.Drawing.Point(12, 70);
+            this.label123.Name = "label123";
+            this.label123.Size = new System.Drawing.Size(53, 12);
+            this.label123.TabIndex = 6;
+            this.label123.Text = "回復時間";
+            // 
+            // label122
+            // 
+            this.label122.Location = new System.Drawing.Point(93, 47);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(69, 12);
+            this.label122.TabIndex = 5;
+            this.label122.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
             // label121
             // 
             this.label121.Location = new System.Drawing.Point(12, 47);
@@ -2276,6 +2319,8 @@
             this.numericUpDown48.Name = "numericUpDown48";
             this.numericUpDown48.Size = new System.Drawing.Size(69, 19);
             this.numericUpDown48.TabIndex = 4;
+            this.numericUpDown48.Click += new System.EventHandler(this.numericUpDown48_Click);
+            this.numericUpDown48.Enter += new System.EventHandler(this.numericUpDown48_Enter);
             // 
             // label100
             // 
@@ -2297,6 +2342,8 @@
             this.numericUpDown47.Name = "numericUpDown47";
             this.numericUpDown47.Size = new System.Drawing.Size(69, 19);
             this.numericUpDown47.TabIndex = 2;
+            this.numericUpDown47.Click += new System.EventHandler(this.numericUpDown47_Click);
+            this.numericUpDown47.Enter += new System.EventHandler(this.numericUpDown47_Enter);
             // 
             // panel5
             // 
@@ -2339,6 +2386,8 @@
             this.numericUpDown45.Name = "numericUpDown45";
             this.numericUpDown45.Size = new System.Drawing.Size(69, 19);
             this.numericUpDown45.TabIndex = 2;
+            this.numericUpDown45.Click += new System.EventHandler(this.numericUpDown45_Click);
+            this.numericUpDown45.Enter += new System.EventHandler(this.numericUpDown45_Enter);
             // 
             // numericUpDown46
             // 
@@ -2351,6 +2400,8 @@
             this.numericUpDown46.Name = "numericUpDown46";
             this.numericUpDown46.Size = new System.Drawing.Size(69, 19);
             this.numericUpDown46.TabIndex = 4;
+            this.numericUpDown46.Click += new System.EventHandler(this.numericUpDown46_Click);
+            this.numericUpDown46.Enter += new System.EventHandler(this.numericUpDown46_Enter);
             // 
             // checkBox8
             // 
@@ -2393,6 +2444,8 @@
             this.numericUpDown44.Name = "numericUpDown44";
             this.numericUpDown44.Size = new System.Drawing.Size(69, 19);
             this.numericUpDown44.TabIndex = 3;
+            this.numericUpDown44.Click += new System.EventHandler(this.numericUpDown44_Click);
+            this.numericUpDown44.Enter += new System.EventHandler(this.numericUpDown44_Enter);
             // 
             // label96
             // 
@@ -2414,6 +2467,8 @@
             this.numericUpDown43.Name = "numericUpDown43";
             this.numericUpDown43.Size = new System.Drawing.Size(69, 19);
             this.numericUpDown43.TabIndex = 1;
+            this.numericUpDown43.Click += new System.EventHandler(this.numericUpDown43_Click);
+            this.numericUpDown43.Enter += new System.EventHandler(this.numericUpDown43_Enter);
             // 
             // button33
             // 
@@ -2667,41 +2722,6 @@
             this.button31.Text = "保存";
             this.button31.UseVisualStyleBackColor = true;
             this.button31.Click += new System.EventHandler(this.button31_Click);
-            // 
-            // label122
-            // 
-            this.label122.Location = new System.Drawing.Point(93, 47);
-            this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(69, 12);
-            this.label122.TabIndex = 5;
-            this.label122.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label123
-            // 
-            this.label123.AutoSize = true;
-            this.label123.Location = new System.Drawing.Point(12, 70);
-            this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(53, 12);
-            this.label123.TabIndex = 6;
-            this.label123.Text = "回復時間";
-            // 
-            // label124
-            // 
-            this.label124.Location = new System.Drawing.Point(93, 70);
-            this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(69, 11);
-            this.label124.TabIndex = 7;
-            this.label124.Text = "分";
-            this.label124.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label125
-            // 
-            this.label125.Location = new System.Drawing.Point(14, 93);
-            this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(148, 12);
-            this.label125.TabIndex = 8;
-            this.label125.Text = "年　月　日　時　分頃";
-            this.label125.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // Form1
             // 
