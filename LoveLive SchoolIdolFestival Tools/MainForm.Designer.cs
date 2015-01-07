@@ -786,7 +786,6 @@
             this.numericUpDown41.Name = "numericUpDown41";
             this.numericUpDown41.Size = new System.Drawing.Size(75, 19);
             this.numericUpDown41.TabIndex = 8;
-            this.numericUpDown41.Click += new System.EventHandler(this.numericUpDown41_Click);
             this.numericUpDown41.Enter += new System.EventHandler(this.numericUpDown41_Enter);
             // 
             // checkBox3
@@ -905,30 +904,30 @@
             // 
             // label54
             // 
-            this.label54.Location = new System.Drawing.Point(120, 400);
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(135, 400);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(43, 12);
+            this.label54.Size = new System.Drawing.Size(27, 12);
             this.label54.TabIndex = 38;
             this.label54.Text = " 0回";
-            this.label54.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label53
             // 
-            this.label53.Location = new System.Drawing.Point(118, 360);
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(135, 360);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(45, 12);
+            this.label53.Size = new System.Drawing.Size(27, 12);
             this.label53.TabIndex = 36;
             this.label53.Text = " 0回";
-            this.label53.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label52
             // 
-            this.label52.Location = new System.Drawing.Point(120, 320);
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(133, 320);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(43, 12);
+            this.label52.Size = new System.Drawing.Size(27, 12);
             this.label52.TabIndex = 34;
             this.label52.Text = " 0回";
-            this.label52.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label48
             // 
@@ -1139,7 +1138,6 @@
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(75, 19);
             this.numericUpDown3.TabIndex = 6;
-            this.numericUpDown3.Click += new System.EventHandler(this.numericUpDown3_Click);
             this.numericUpDown3.Enter += new System.EventHandler(this.numericUpDown3_Enter);
             // 
             // numericUpDown2
@@ -1153,7 +1151,6 @@
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(75, 19);
             this.numericUpDown2.TabIndex = 4;
-            this.numericUpDown2.Click += new System.EventHandler(this.numericUpDown2_Click);
             this.numericUpDown2.Enter += new System.EventHandler(this.numericUpDown2_Enter);
             // 
             // numericUpDown1
@@ -2319,7 +2316,6 @@
             this.numericUpDown48.Name = "numericUpDown48";
             this.numericUpDown48.Size = new System.Drawing.Size(69, 19);
             this.numericUpDown48.TabIndex = 4;
-            this.numericUpDown48.Click += new System.EventHandler(this.numericUpDown48_Click);
             this.numericUpDown48.Enter += new System.EventHandler(this.numericUpDown48_Enter);
             // 
             // label100
@@ -2342,7 +2338,6 @@
             this.numericUpDown47.Name = "numericUpDown47";
             this.numericUpDown47.Size = new System.Drawing.Size(69, 19);
             this.numericUpDown47.TabIndex = 2;
-            this.numericUpDown47.Click += new System.EventHandler(this.numericUpDown47_Click);
             this.numericUpDown47.Enter += new System.EventHandler(this.numericUpDown47_Enter);
             // 
             // panel5
@@ -2400,7 +2395,6 @@
             this.numericUpDown46.Name = "numericUpDown46";
             this.numericUpDown46.Size = new System.Drawing.Size(69, 19);
             this.numericUpDown46.TabIndex = 4;
-            this.numericUpDown46.Click += new System.EventHandler(this.numericUpDown46_Click);
             this.numericUpDown46.Enter += new System.EventHandler(this.numericUpDown46_Enter);
             // 
             // checkBox8
@@ -2444,7 +2438,6 @@
             this.numericUpDown44.Name = "numericUpDown44";
             this.numericUpDown44.Size = new System.Drawing.Size(69, 19);
             this.numericUpDown44.TabIndex = 3;
-            this.numericUpDown44.Click += new System.EventHandler(this.numericUpDown44_Click);
             this.numericUpDown44.Enter += new System.EventHandler(this.numericUpDown44_Enter);
             // 
             // label96
