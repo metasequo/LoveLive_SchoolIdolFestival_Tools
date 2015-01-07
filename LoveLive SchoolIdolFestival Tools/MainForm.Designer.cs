@@ -905,7 +905,7 @@
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(135, 400);
+            this.label54.Location = new System.Drawing.Point(133, 400);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(27, 12);
             this.label54.TabIndex = 38;
@@ -914,7 +914,7 @@
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(135, 360);
+            this.label53.Location = new System.Drawing.Point(133, 360);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(27, 12);
             this.label53.TabIndex = 36;
@@ -949,9 +949,9 @@
             // 
             // label46
             // 
-            this.label46.Location = new System.Drawing.Point(588, 220);
+            this.label46.Location = new System.Drawing.Point(553, 220);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(35, 12);
+            this.label46.Size = new System.Drawing.Size(70, 12);
             this.label46.TabIndex = 29;
             this.label46.Text = "   0分";
             this.label46.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -967,12 +967,12 @@
             // 
             // label44
             // 
+            this.label44.AutoSize = true;
             this.label44.Location = new System.Drawing.Point(351, 220);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(87, 12);
             this.label44.TabIndex = 27;
             this.label44.Text = " 0回でランクアップ";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label35
             // 
@@ -1012,9 +1012,9 @@
             // 
             // label42
             // 
-            this.label42.Location = new System.Drawing.Point(588, 140);
+            this.label42.Location = new System.Drawing.Point(557, 140);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(35, 12);
+            this.label42.Size = new System.Drawing.Size(66, 12);
             this.label42.TabIndex = 22;
             this.label42.Text = "   0分";
             this.label42.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1030,12 +1030,12 @@
             // 
             // label40
             // 
+            this.label40.AutoSize = true;
             this.label40.Location = new System.Drawing.Point(351, 140);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(87, 12);
             this.label40.TabIndex = 20;
             this.label40.Text = " 0回でランクアップ";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label32
             // 
@@ -1075,9 +1075,9 @@
             // 
             // label38
             // 
-            this.label38.Location = new System.Drawing.Point(588, 60);
+            this.label38.Location = new System.Drawing.Point(555, 60);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(35, 12);
+            this.label38.Size = new System.Drawing.Size(68, 12);
             this.label38.TabIndex = 15;
             this.label38.Text = "   0分";
             this.label38.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1093,12 +1093,12 @@
             // 
             // label36
             // 
+            this.label36.AutoSize = true;
             this.label36.Location = new System.Drawing.Point(351, 60);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(87, 12);
             this.label36.TabIndex = 13;
             this.label36.Text = " 0回でランクアップ";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label29
             // 
