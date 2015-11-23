@@ -16,6 +16,12 @@ LoveLive SchoolIdolFestival Tools
 
 の4つのツールが入っています。
 
+### ライセンス
+
+[The MIT License (MIT)](https://github.com/metasequo/LoveLive_SchoolIdolFestival_Tools/blob/master/LICENSE.txt)
+
+MIT ライセンスの下で公開する、オープンソース / フリーソフトウェアです。
+
 ### 使い方
 
 "/LoveLive SchoolIdolFestival Tools/bin/Debug/LoveLive_SchoolIdolFestival_Tools.exe" を起動してください。
